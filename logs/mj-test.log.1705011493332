@@ -1,0 +1,170 @@
+INFO  23:16:11,441 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:16:11,480 - #2 program
+INFO  23:16:11,480 - #48 MojProgram
+INFO  23:16:11,480 - #48 int
+INFO  23:16:11,482 - #48 x
+INFO  23:16:11,482 - #40 ;
+INFO  23:16:11,483 - #48 int
+INFO  23:16:11,483 - #48 y
+INFO  23:16:11,483 - #40 ;
+INFO  23:16:11,483 - #18 {
+INFO  23:16:11,483 - #48 int
+INFO  23:16:11,484 - #48 main
+INFO  23:16:11,484 - #20 (
+INFO  23:16:11,485 - #21 )
+INFO  23:16:11,485 - #18 {
+INFO  23:16:11,485 - #48 x
+INFO  23:16:11,486 - #24 =
+INFO  23:16:11,486 - #47 3
+INFO  23:16:11,486 - #40 ;
+INFO  23:16:11,486 - #5 print
+INFO  23:16:11,487 - #20 (
+INFO  23:16:11,487 - #47 7
+INFO  23:16:11,488 - #21 )
+INFO  23:16:11,488 - #40 ;
+INFO  23:16:11,488 - #5 print
+INFO  23:16:11,489 - #20 (
+INFO  23:16:11,489 - #48 x
+INFO  23:16:11,489 - #21 )
+INFO  23:16:11,489 - #40 ;
+INFO  23:16:11,489 - #6 return
+INFO  23:16:11,489 - #47 0
+INFO  23:16:11,489 - #40 ;
+INFO  23:16:11,489 - #19 }
+INFO  23:16:11,489 - #19 }
+INFO  23:16:11,495 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       y
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        NonVoidRetType(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+        ) [NonVoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      NoMoreVarDecls1(
+      ) [NoMoreVarDecls1]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatement(
+              ) [NoStatement]
+              DesignStatement(
+                DesignatorStatementSemi(
+                  DesignatorEqual(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNum(
+                         3
+                        ) [FactorNum]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [DesignatorEqual]
+                ) [DesignatorStatementSemi]
+              ) [DesignStatement]
+            ) [Statements]
+            PrintStatement(
+              OneTermExpr(
+                OneFactor(
+                  FactorNum(
+                   7
+                  ) [FactorNum]
+                ) [OneFactor]
+              ) [OneTermExpr]
+            ) [PrintStatement]
+          ) [Statements]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorDesignator(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                ) [FactorDesignator]
+              ) [OneFactor]
+            ) [OneTermExpr]
+          ) [PrintStatement]
+        ) [Statements]
+        ReturnStatementExpr(
+          OneTermExpr(
+            OneFactor(
+              FactorNum(
+               0
+              ) [FactorNum]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [ReturnStatementExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  23:16:11,496 - ============================================
+INFO  23:16:11,500 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 7
+INFO  23:16:11,500 - Poziv metode print() na liniji 9
+INFO  23:16:11,500 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 10
+INFO  23:16:11,500 - Poziv metode print() na liniji 10
+INFO  23:16:11,500 - ============================================
+INFO  23:16:11,502 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var y: int, 1, 0 
+   Meth main: int, 0, 0 
+
+
+
+INFO  23:16:11,512 - Parsiranje uspesno zavrseno!

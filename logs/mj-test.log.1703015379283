@@ -1,0 +1,130 @@
+INFO  20:49:19,511 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:49:19,534 - #2 program
+INFO  20:49:19,534 - #48 MojProgram
+INFO  20:49:19,534 - #48 int
+INFO  20:49:19,535 - #48 rrp
+INFO  20:49:19,535 - #22 [
+INFO  20:49:19,535 - #23 ]
+INFO  20:49:19,535 - #41 ,
+INFO  20:49:19,535 - #48 f
+INFO  20:49:19,536 - #40 ;
+INFO  20:49:19,536 - #16 const
+INFO  20:49:19,536 - #48 int
+INFO  20:49:19,536 - #48 r
+INFO  20:49:19,536 - #24 =
+INFO  20:49:19,536 - #47 32
+INFO  20:49:19,536 - #41 ,
+INFO  20:49:19,536 - #48 e
+INFO  20:49:19,536 - #24 =
+INFO  20:49:19,536 - #47 32
+INFO  20:49:19,536 - #40 ;
+INFO  20:49:19,538 - #18 {
+INFO  20:49:19,538 - #7 void
+INFO  20:49:19,539 - #48 main
+INFO  20:49:19,539 - #20 (
+INFO  20:49:19,540 - #21 )
+INFO  20:49:19,540 - #48 int
+INFO  20:49:19,540 - #48 a
+INFO  20:49:19,540 - #40 ;
+INFO  20:49:19,540 - #18 {
+INFO  20:49:19,541 - #48 bodovi
+INFO  20:49:19,541 - #24 =
+INFO  20:49:19,541 - #47 0
+INFO  20:49:19,541 - #40 ;
+INFO  20:49:19,541 - #19 }
+INFO  20:49:19,541 - #19 }
+INFO  20:49:19,543 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  ConstDecls(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDecl2(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+       rrp
+        IsArray(
+        ) [IsArray]
+        MoreVariables(
+         f
+          NotArray(
+          ) [NotArray]
+        ) [MoreVariables]
+      ) [VarDecl2]
+    ) [ConstDecls]
+    ConstDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      ConstantAssign(
+       r
+        NumConst(
+         32
+        ) [NumConst]
+      ) [ConstantAssign]
+      MoreConstantsComma(
+        NoMoreConstants(
+        ) [NoMoreConstants]
+        ConstantAssign(
+         e
+          NumConst(
+           32
+          ) [NumConst]
+        ) [ConstantAssign]
+      ) [MoreConstantsComma]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      VoidRetType(
+      ) [VoidRetType]
+     main
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        VarDecl1(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+         a
+          NotArray(
+          ) [NotArray]
+          NoMoreVariables(
+          ) [NoMoreVariables]
+        ) [VarDecl1]
+      ) [VarDeclarations]
+      Statements(
+        NoStatement(
+        ) [NoStatement]
+        DesignStatement(
+          DesignatorEqual(
+            DesignatorExpr(
+              TypeNoScope(
+               bodovi
+              ) [TypeNoScope]
+              NoDesignExpression(
+              ) [NoDesignExpression]
+            ) [DesignatorExpr]
+            OneTermExpr(
+              OneFactor(
+                FactorNum(
+                 0
+                ) [FactorNum]
+              ) [OneFactor]
+            ) [OneTermExpr]
+          ) [DesignatorEqual]
+        ) [DesignStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  20:49:19,543 - ============================================

@@ -1,0 +1,35 @@
+INFO  22:51:56,375 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:51:56,403 - #2 program
+INFO  22:51:56,403 - #47 MojProgram
+INFO  22:51:56,404 - #3 namespace
+INFO  22:51:56,405 - #47 SPace
+INFO  22:51:56,405 - #17 {
+INFO  22:51:56,405 - #17 {
+INFO  22:51:56,407 - #6 void
+INFO  22:51:56,407 - #47 fun
+INFO  22:51:56,408 - #19 (
+INFO  22:51:56,409 - #20 )
+INFO  22:51:56,410 - #18 }
+INFO  22:51:56,411 - #18 }
+INFO  22:51:56,411 - #17 {
+INFO  22:51:56,412 - #18 }
+INFO  22:51:56,414 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    HasNamespace2(
+      NamespaceName(
+       SPace
+      ) [NamespaceName]
+      NamespaceDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        MethodDecls(
+         fun
+        ) [MethodDecls]
+      ) [NamespaceDecls]
+    ) [HasNamespace2]
+  ) [HasNamespace1]
+) [Program]
+INFO  22:51:56,414 - ============================================

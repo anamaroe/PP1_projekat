@@ -1,0 +1,144 @@
+INFO  22:20:24,005 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:20:24,036 - #2 program
+INFO  22:20:24,036 - #48 MojProgram
+INFO  22:20:24,036 - #48 int
+INFO  22:20:24,039 - #48 x
+INFO  22:20:24,039 - #40 ;
+INFO  22:20:24,039 - #48 int
+INFO  22:20:24,040 - #48 y
+INFO  22:20:24,040 - #40 ;
+INFO  22:20:24,040 - #18 {
+INFO  22:20:24,040 - #48 int
+INFO  22:20:24,040 - #48 main
+INFO  22:20:24,040 - #20 (
+INFO  22:20:24,041 - #21 )
+INFO  22:20:24,041 - #18 {
+INFO  22:20:24,041 - #5 print
+INFO  22:20:24,042 - #20 (
+INFO  22:20:24,042 - #47 1
+INFO  22:20:24,042 - #21 )
+INFO  22:20:24,042 - #40 ;
+INFO  22:20:24,042 - #5 print
+INFO  22:20:24,043 - #20 (
+INFO  22:20:24,043 - #47 7
+INFO  22:20:24,043 - #21 )
+INFO  22:20:24,043 - #40 ;
+INFO  22:20:24,043 - #6 return
+INFO  22:20:24,043 - #47 0
+INFO  22:20:24,043 - #40 ;
+INFO  22:20:24,043 - #19 }
+INFO  22:20:24,043 - #19 }
+INFO  22:20:24,046 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       y
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        NonVoidRetType(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+        ) [NonVoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      NoMoreVarDecls1(
+      ) [NoMoreVarDecls1]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            NoStatement(
+            ) [NoStatement]
+            PrintStatement(
+              OneTermExpr(
+                OneFactor(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                ) [OneFactor]
+              ) [OneTermExpr]
+            ) [PrintStatement]
+          ) [Statements]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorNum(
+                 7
+                ) [FactorNum]
+              ) [OneFactor]
+            ) [OneTermExpr]
+          ) [PrintStatement]
+        ) [Statements]
+        ReturnStatementExpr(
+          OneTermExpr(
+            OneFactor(
+              FactorNum(
+               0
+              ) [FactorNum]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [ReturnStatementExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  22:20:24,046 - ============================================
+INFO  22:20:24,052 - Poziv metode print() na liniji 8
+INFO  22:20:24,052 - Poziv metode print() na liniji 9
+INFO  22:20:24,052 - ============================================
+INFO  22:20:24,052 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var y: int, 1, 0 
+   Meth main: int, 0, 0 
+
+
+
+INFO  22:20:24,056 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,300 @@
+INFO  10:11:34,355 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  10:11:34,405 - #2 program
+INFO  10:11:34,406 - #48 MojProgram
+INFO  10:11:34,406 - #3 namespace
+INFO  10:11:34,407 - #48 Konstante
+INFO  10:11:34,407 - #18 {
+INFO  10:11:34,408 - #16 const
+INFO  10:11:34,409 - #48 int
+INFO  10:11:34,409 - #48 nula
+INFO  10:11:34,409 - #24 =
+INFO  10:11:34,409 - #47 0
+INFO  10:11:34,410 - #40 ;
+INFO  10:11:34,410 - #16 const
+INFO  10:11:34,411 - #48 int
+INFO  10:11:34,411 - #48 jedan
+INFO  10:11:34,411 - #24 =
+INFO  10:11:34,411 - #47 1
+INFO  10:11:34,411 - #40 ;
+INFO  10:11:34,411 - #48 int
+INFO  10:11:34,411 - #48 pet
+INFO  10:11:34,413 - #24 =
+ERROR 10:11:34,413 - 
+Sintaksna greska na liniji 6
+INFO  10:11:34,413 - #47 5
+INFO  10:11:34,414 - #40 ;
+INFO  10:11:34,414 - #18 {
+INFO  10:11:34,415 - #19 }
+INFO  10:11:34,415 - #19 }
+INFO  10:11:34,419 - #48 int
+INFO  10:11:34,420 - #48 x
+INFO  10:11:34,420 - #40 ;
+INFO  10:11:34,421 - #48 int
+INFO  10:11:34,422 - #48 y
+INFO  10:11:34,422 - #40 ;
+INFO  10:11:34,422 - #18 {
+INFO  10:11:34,422 - #48 int
+INFO  10:11:34,422 - #48 main
+INFO  10:11:34,423 - #20 (
+INFO  10:11:34,424 - #21 )
+INFO  10:11:34,424 - #18 {
+INFO  10:11:34,427 - #48 x
+INFO  10:11:34,427 - #24 =
+INFO  10:11:34,428 - #47 3
+INFO  10:11:34,428 - #40 ;
+INFO  10:11:34,429 - #48 Konstante
+INFO  10:11:34,430 - #44 :
+INFO  10:11:34,431 - #44 :
+INFO  10:11:34,431 - #48 pet
+INFO  10:11:34,431 - #24 =
+INFO  10:11:34,432 - #47 2
+INFO  10:11:34,432 - #40 ;
+INFO  10:11:34,432 - #5 print
+INFO  10:11:34,432 - #20 (
+INFO  10:11:34,433 - #47 7
+INFO  10:11:34,433 - #21 )
+INFO  10:11:34,433 - #40 ;
+INFO  10:11:34,433 - #5 print
+INFO  10:11:34,434 - #20 (
+INFO  10:11:34,434 - #48 x
+INFO  10:11:34,434 - #21 )
+INFO  10:11:34,434 - #40 ;
+INFO  10:11:34,434 - #5 print
+INFO  10:11:34,434 - #20 (
+INFO  10:11:34,434 - #48 Konstante
+INFO  10:11:34,434 - #44 :
+INFO  10:11:34,434 - #44 :
+INFO  10:11:34,436 - #48 pet
+INFO  10:11:34,436 - #21 )
+INFO  10:11:34,436 - #40 ;
+INFO  10:11:34,436 - #6 return
+INFO  10:11:34,436 - #47 0
+INFO  10:11:34,436 - #40 ;
+INFO  10:11:34,436 - #19 }
+INFO  10:11:34,437 - #19 }
+INFO  10:11:34,455 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    NoNamespace(
+    ) [NoNamespace]
+    HasNamespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        VariableDeclaration2(
+          ConstDecls(
+            ConstDecls(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDecl(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+                NumConst(
+                 nula
+                 0
+                ) [NumConst]
+                NoMoreConstants(
+                ) [NoMoreConstants]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+              NumConst(
+               jedan
+               1
+              ) [NumConst]
+              NoMoreConstants(
+              ) [NoMoreConstants]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          NoMoreVarDecl(
+            TypeNoScope(
+             int
+            ) [TypeNoScope]
+            ErrorVarSemi(
+            ) [ErrorVarSemi]
+          ) [NoMoreVarDecl]
+        ) [VariableDeclaration2]
+        NoMoreMethodDeclarations(
+        ) [NoMoreMethodDeclarations]
+      ) [Declarations]
+    ) [HasNamespace]
+  ) [HasNamespace1]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       y
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        NonVoidRetType(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+        ) [NonVoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      NoMoreVarDecls1(
+      ) [NoMoreVarDecls1]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStatement(
+                  ) [NoStatement]
+                  DesignStatement(
+                    DesignatorStatementSemi(
+                      DesignatorEqual(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             3
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [DesignatorEqual]
+                    ) [DesignatorStatementSemi]
+                  ) [DesignStatement]
+                ) [Statements]
+                DesignStatement(
+                  DesignatorStatementSemi(
+                    DesignatorEqual(
+                      DesignatorScopedIdent(
+                       Konstante
+                       pet
+                      ) [DesignatorScopedIdent]
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [DesignatorEqual]
+                  ) [DesignatorStatementSemi]
+                ) [DesignStatement]
+              ) [Statements]
+              PrintStatement(
+                OneTermExpr(
+                  OneFactor(
+                    FactorNum(
+                     7
+                    ) [FactorNum]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [PrintStatement]
+            ) [Statements]
+            PrintStatement(
+              OneTermExpr(
+                OneFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [OneFactor]
+              ) [OneTermExpr]
+            ) [PrintStatement]
+          ) [Statements]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorDesignator(
+                  DesignatorScopedIdent(
+                   Konstante
+                   pet
+                  ) [DesignatorScopedIdent]
+                ) [FactorDesignator]
+              ) [OneFactor]
+            ) [OneTermExpr]
+          ) [PrintStatement]
+        ) [Statements]
+        ReturnStatementExpr(
+          OneTermExpr(
+            OneFactor(
+              FactorNum(
+               0
+              ) [FactorNum]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [ReturnStatementExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  10:11:34,455 - ============================================
+INFO  10:11:34,461 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 14
+ERROR 10:11:34,462 - Greska na liniji 15: ime Konstante::pet nije deklarisano! 
+INFO  10:11:34,462 - Koriscenje promenljive Konstante::pet [Var noObj: none, -1, -1 ] na liniji 15
+ERROR 10:11:34,462 - Tip izraza koji se dodeljuje 1 nije kompatibilan sa promenljivom 1 na liniji 15
+INFO  10:11:34,462 - Poziv metode print() na liniji 16
+INFO  10:11:34,462 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 17
+INFO  10:11:34,462 - Poziv metode print() na liniji 17
+ERROR 10:11:34,462 - Greska na liniji 18: ime Konstante::pet nije deklarisano! 
+INFO  10:11:34,462 - Koriscenje promenljive Konstante::pet [Var noObj: none, -1, -1 ] na liniji 18
+ERROR 10:11:34,463 - Argument print funkcije mora biti int, char ili bool tipa na liniji 18
+INFO  10:11:34,463 - Poziv metode print() na liniji 18
+INFO  10:11:34,463 - ============================================
+INFO  10:11:34,465 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Con Konstante::nula: int, 0, 0 
+   Con Konstante::jedan: int, 1, 0 
+   Var x: int, 0, 0 
+   Var y: int, 1, 0 
+   Meth main: int, 0, 0 
+
+
+
+INFO  10:11:34,465 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,100 @@
+program MojProgram
+	 
+	namespace sizes{
+		const int tableSize = 10;
+		int g;
+		{
+			void h(char v) {}
+			bool bi() {return true;}
+		}
+	}
+	
+	namespace Konstante{
+		const int nula = 0;
+		const int jedan = 1;
+		const int pet = 5;
+		
+		{}
+	}
+	
+	namespace Nizovi{
+		int niz[];
+		char nizch[];
+		
+		{}
+	}
+		 
+	int aa; 
+	
+		 
+	// deklaracije za glavni program
+	int rrp, p, o[], i, d[];
+	int op[];
+	char m;
+	int bodovi;
+	
+	const int r = 32, e = 32;
+	const char f = 'v';
+	//const bool b = true;
+	const char dsd = 'n';
+	//int b;
+{
+	int k (int faf) int c; {
+		c = faf;
+		op = new int[10];
+		return 2;
+	}
+	
+	int verify() { return 32;
+	}
+	char ax(){ 
+		return 'n';
+	}
+	int b(){ 
+		return 3;
+	}
+	bool c(int a, int b, int f){ 
+		return true;
+		}
+
+	void main() 
+		int a;  int i; int x;
+	{
+		read(op[3]);
+		bodovi = k(a);
+		bodovi++;
+		k(a);
+		print(bodovi);
+		Nizovi::niz = new int[3];
+		Nizovi::niz[Konstante::nula] = Konstante::jedan;
+		Nizovi::niz[1] = 2;
+		Nizovi::niz[Nizovi::niz[1]] = Nizovi::niz[Nizovi::niz[0]] * 3;
+		bodovi = Nizovi::niz[2]/Nizovi::niz[0];
+		print(bodovi);
+		//print(Nizovi::niz[2]);
+			
+		read(m);
+		Nizovi::nizch = new char[3];
+		Nizovi::nizch[0] = 'a';
+		Nizovi::nizch[Konstante::jedan] = 'b';
+		Nizovi::nizch[Konstante::pet - 3] = 'c';
+		print(Nizovi::nizch[1]);
+		print(Nizovi::nizch[Konstante::jedan * 2]);
+			 
+		a=1;
+		for (i=0; i < 3; i++){
+			print(i);
+		}
+		k(a);
+		bodovi = 0;
+		if(x<bodovi && x<j && x>bodovi) x = 4; else x = 32;
+		sizes::g = a;
+		print(bodovi);
+		ax();
+		b();
+		c(a, p, i);
+		[aa, ax,d,*op] = d;
+		//[Unpacking::a,Unpacking::b,*Unpacking::niz2] = Unpacking::niz;
+		chr(aa);
+	}
+}

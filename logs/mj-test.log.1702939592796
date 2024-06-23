@@ -1,0 +1,174 @@
+INFO  23:43:18,072 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:43:18,113 - #2 program
+INFO  23:43:18,113 - #47 MojProgram
+INFO  23:43:18,113 - #3 namespace
+INFO  23:43:18,114 - #47 SPace
+INFO  23:43:18,114 - #17 {
+INFO  23:43:18,114 - #47 int
+INFO  23:43:18,115 - #47 rrp
+INFO  23:43:18,115 - #21 [
+INFO  23:43:18,115 - #22 ]
+INFO  23:43:18,115 - #40 ,
+INFO  23:43:18,117 - #47 f
+INFO  23:43:18,117 - #39 ;
+INFO  23:43:18,118 - #15 const
+INFO  23:43:18,118 - #47 int
+INFO  23:43:18,119 - #47 r
+INFO  23:43:18,119 - #23 =
+INFO  23:43:18,119 - #46 32
+INFO  23:43:18,119 - #40 ,
+INFO  23:43:18,120 - #47 e
+INFO  23:43:18,120 - #23 =
+INFO  23:43:18,122 - #46 32
+INFO  23:43:18,122 - #39 ;
+INFO  23:43:18,122 - #17 {
+INFO  23:43:18,122 - #6 void
+INFO  23:43:18,123 - #47 fun
+INFO  23:43:18,124 - #19 (
+INFO  23:43:18,124 - #47 int
+INFO  23:43:18,124 - #47 a
+INFO  23:43:18,124 - #21 [
+INFO  23:43:18,124 - #22 ]
+INFO  23:43:18,124 - #40 ,
+INFO  23:43:18,124 - #47 int
+INFO  23:43:18,124 - #47 g
+INFO  23:43:18,124 - #40 ,
+INFO  23:43:18,125 - #47 p
+INFO  23:43:18,125 - #43 :
+INFO  23:43:18,125 - #43 :
+INFO  23:43:18,125 - #47 int
+INFO  23:43:18,125 - #47 p
+INFO  23:43:18,125 - #21 [
+INFO  23:43:18,125 - #22 ]
+INFO  23:43:18,125 - #20 )
+INFO  23:43:18,126 - #17 {
+INFO  23:43:18,126 - #7 if
+INFO  23:43:18,128 - #18 }
+INFO  23:43:18,129 - #47 int
+INFO  23:43:18,130 - #47 meth
+INFO  23:43:18,130 - #19 (
+INFO  23:43:18,130 - #20 )
+INFO  23:43:18,131 - #17 {
+INFO  23:43:18,131 - #7 if
+INFO  23:43:18,131 - #18 }
+INFO  23:43:18,132 - #18 }
+INFO  23:43:18,132 - #18 }
+INFO  23:43:18,132 - #17 {
+INFO  23:43:18,132 - #18 }
+INFO  23:43:18,134 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    HasNamespace2(
+      NamespaceName(
+       SPace
+      ) [NamespaceName]
+      NamespaceDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDecl2(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+             rrp
+              IsArray(
+              ) [IsArray]
+              MoreVariables(
+               f
+                NotArray(
+                ) [NotArray]
+              ) [MoreVariables]
+            ) [VarDecl2]
+          ) [ConstDecls]
+          ConstDecl(
+            TypeNoScope(
+             int
+            ) [TypeNoScope]
+            ConstantAssign(
+             r
+              NumConst(
+               32
+              ) [NumConst]
+            ) [ConstantAssign]
+            MoreConstantsComma(
+              NoMoreConstants(
+              ) [NoMoreConstants]
+              ConstantAssign(
+               e
+                NumConst(
+                 32
+                ) [NumConst]
+              ) [ConstantAssign]
+            ) [MoreConstantsComma]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        MoreMethodDecls(
+          MoreMethodDecls(
+            NoMoreMethodDeclarations(
+            ) [NoMoreMethodDeclarations]
+            MethodDeclaration(
+              VoidRetType(
+              ) [VoidRetType]
+             fun
+              HasFormalParams(
+                MultipleFormalParameters(
+                  Parameter(
+                    TypeNoScope(
+                     int
+                    ) [TypeNoScope]
+                   a
+                    IsArray(
+                    ) [IsArray]
+                  ) [Parameter]
+                  MultipleFormalParameters(
+                    Parameter(
+                      TypeNoScope(
+                       int
+                      ) [TypeNoScope]
+                     g
+                      NotArray(
+                      ) [NotArray]
+                    ) [Parameter]
+                    OneFormalParameter(
+                      Parameter(
+                        TypeWScope(
+                         p
+                         int
+                        ) [TypeWScope]
+                       p
+                        IsArray(
+                        ) [IsArray]
+                      ) [Parameter]
+                    ) [OneFormalParameter]
+                  ) [MultipleFormalParameters]
+                ) [MultipleFormalParameters]
+              ) [HasFormalParams]
+              NoMoreVarDecls1(
+              ) [NoMoreVarDecls1]
+              Iff(
+              ) [Iff]
+            ) [MethodDeclaration]
+          ) [MoreMethodDecls]
+          MethodDeclaration(
+            NonVoidRetType(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+            ) [NonVoidRetType]
+           meth
+            NoFormalParams(
+            ) [NoFormalParams]
+            NoMoreVarDecls1(
+            ) [NoMoreVarDecls1]
+            Iff(
+            ) [Iff]
+          ) [MethodDeclaration]
+        ) [MoreMethodDecls]
+      ) [NamespaceDecls]
+    ) [HasNamespace2]
+  ) [HasNamespace1]
+) [Program]
+INFO  23:43:18,134 - ============================================

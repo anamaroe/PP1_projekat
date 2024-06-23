@@ -1,0 +1,793 @@
+INFO  16:18:50,517 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:18:50,552 - #2 program
+INFO  16:18:50,553 - #48 MojProgram
+INFO  16:18:50,553 - #48 int
+INFO  16:18:50,554 - #48 rrp
+INFO  16:18:50,554 - #22 [
+INFO  16:18:50,554 - #23 ]
+INFO  16:18:50,554 - #41 ,
+INFO  16:18:50,556 - #48 f
+INFO  16:18:50,556 - #41 ,
+INFO  16:18:50,557 - #48 m
+INFO  16:18:50,557 - #41 ,
+INFO  16:18:50,557 - #48 p
+INFO  16:18:50,557 - #22 [
+INFO  16:18:50,557 - #23 ]
+INFO  16:18:50,557 - #41 ,
+INFO  16:18:50,557 - #48 o
+INFO  16:18:50,557 - #40 ;
+INFO  16:18:50,557 - #16 const
+INFO  16:18:50,557 - #48 int
+INFO  16:18:50,557 - #48 r
+INFO  16:18:50,557 - #24 =
+INFO  16:18:50,560 - #47 32
+INFO  16:18:50,560 - #41 ,
+INFO  16:18:50,560 - #48 e
+INFO  16:18:50,560 - #24 =
+INFO  16:18:50,561 - #47 32
+INFO  16:18:50,561 - #41 ,
+INFO  16:18:50,561 - #48 o
+INFO  16:18:50,561 - #24 =
+INFO  16:18:50,561 - #47 65
+INFO  16:18:50,561 - #40 ;
+INFO  16:18:50,561 - #18 {
+INFO  16:18:50,561 - #7 void
+INFO  16:18:50,561 - #48 main
+INFO  16:18:50,562 - #20 (
+INFO  16:18:50,562 - #21 )
+INFO  16:18:50,562 - #48 int
+INFO  16:18:50,562 - #48 a
+INFO  16:18:50,562 - #40 ;
+INFO  16:18:50,563 - #18 {
+INFO  16:18:50,563 - #48 bodovi
+INFO  16:18:50,563 - #24 =
+INFO  16:18:50,564 - #47 0
+INFO  16:18:50,564 - #40 ;
+INFO  16:18:50,564 - #48 bodovi
+INFO  16:18:50,565 - #32 ++
+INFO  16:18:50,565 - #40 ;
+INFO  16:18:50,565 - #48 bodovi
+INFO  16:18:50,565 - #24 =
+INFO  16:18:50,565 - #48 bodovi
+INFO  16:18:50,565 - #25 +
+INFO  16:18:50,565 - #48 Konstante
+INFO  16:18:50,566 - #44 :
+INFO  16:18:50,566 - #44 :
+INFO  16:18:50,566 - #48 jedan
+INFO  16:18:50,566 - #40 ;
+INFO  16:18:50,566 - #48 bodovi
+INFO  16:18:50,566 - #24 =
+INFO  16:18:50,566 - #48 bodovi
+INFO  16:18:50,567 - #27 *
+INFO  16:18:50,567 - #48 Konstante
+INFO  16:18:50,567 - #44 :
+INFO  16:18:50,569 - #44 :
+INFO  16:18:50,569 - #48 pet
+INFO  16:18:50,570 - #40 ;
+INFO  16:18:50,570 - #48 bodovi
+INFO  16:18:50,570 - #33 --
+INFO  16:18:50,570 - #40 ;
+INFO  16:18:50,570 - #5 print
+INFO  16:18:50,572 - #20 (
+INFO  16:18:50,572 - #48 bodovi
+INFO  16:18:50,572 - #21 )
+INFO  16:18:50,573 - #40 ;
+INFO  16:18:50,573 - #48 a
+INFO  16:18:50,573 - #20 (
+INFO  16:18:50,573 - #21 )
+INFO  16:18:50,574 - #40 ;
+INFO  16:18:50,574 - #48 b
+INFO  16:18:50,575 - #20 (
+INFO  16:18:50,575 - #48 d
+INFO  16:18:50,575 - #21 )
+INFO  16:18:50,575 - #40 ;
+INFO  16:18:50,575 - #48 c
+INFO  16:18:50,575 - #20 (
+INFO  16:18:50,575 - #48 l
+INFO  16:18:50,575 - #41 ,
+INFO  16:18:50,575 - #48 c
+INFO  16:18:50,575 - #41 ,
+INFO  16:18:50,576 - #48 d
+INFO  16:18:50,576 - #21 )
+INFO  16:18:50,576 - #40 ;
+INFO  16:18:50,576 - #22 [
+INFO  16:18:50,576 - #48 s
+INFO  16:18:50,577 - #41 ,
+INFO  16:18:50,577 - #41 ,
+INFO  16:18:50,578 - #27 *
+INFO  16:18:50,578 - #48 a
+INFO  16:18:50,578 - #23 ]
+INFO  16:18:50,578 - #24 =
+INFO  16:18:50,578 - #48 d
+INFO  16:18:50,578 - #40 ;
+INFO  16:18:50,578 - #10 break
+INFO  16:18:50,578 - #40 ;
+INFO  16:18:50,578 - #6 return
+INFO  16:18:50,578 - #40 ;
+INFO  16:18:50,578 - #13 continue
+INFO  16:18:50,579 - #40 ;
+INFO  16:18:50,579 - #6 return
+INFO  16:18:50,579 - #45 true
+INFO  16:18:50,579 - #40 ;
+INFO  16:18:50,579 - #8 if
+INFO  16:18:50,580 - #20 (
+INFO  16:18:50,580 - #48 a
+INFO  16:18:50,580 - #29 &&
+INFO  16:18:50,580 - #48 d||o
+INFO  16:18:50,580 - #29 &&
+INFO  16:18:50,580 - #48 a
+INFO  16:18:50,580 - #34 <
+INFO  16:18:50,580 - #47 56
+INFO  16:18:50,581 - #21 )
+INFO  16:18:50,581 - #10 break
+INFO  16:18:50,582 - #40 ;
+INFO  16:18:50,582 - #5 print
+INFO  16:18:50,582 - #20 (
+INFO  16:18:50,582 - #48 ord
+INFO  16:18:50,582 - #20 (
+INFO  16:18:50,582 - #46 A
+INFO  16:18:50,582 - #21 )
+INFO  16:18:50,582 - #21 )
+INFO  16:18:50,582 - #40 ;
+INFO  16:18:50,582 - #8 if
+INFO  16:18:50,582 - #20 (
+INFO  16:18:50,582 - #48 verify
+INFO  16:18:50,582 - #20 (
+INFO  16:18:50,582 - #21 )
+INFO  16:18:50,582 - #30 ||
+INFO  16:18:50,582 - #48 niz
+INFO  16:18:50,582 - #22 [
+INFO  16:18:50,582 - #47 2
+INFO  16:18:50,582 - #23 ]
+INFO  16:18:50,582 - #39 ==
+INFO  16:18:50,582 - #47 4
+INFO  16:18:50,584 - #21 )
+INFO  16:18:50,584 - #5 print
+INFO  16:18:50,584 - #20 (
+INFO  16:18:50,585 - #48 ord
+INFO  16:18:50,585 - #20 (
+INFO  16:18:50,585 - #46 A
+INFO  16:18:50,585 - #21 )
+INFO  16:18:50,585 - #21 )
+INFO  16:18:50,585 - #40 ;
+INFO  16:18:50,585 - #9 else
+INFO  16:18:50,585 - #5 print
+INFO  16:18:50,585 - #20 (
+INFO  16:18:50,585 - #48 ord
+INFO  16:18:50,585 - #20 (
+INFO  16:18:50,585 - #46 a
+INFO  16:18:50,585 - #21 )
+INFO  16:18:50,586 - #21 )
+INFO  16:18:50,586 - #40 ;
+INFO  16:18:50,586 - #19 }
+INFO  16:18:50,586 - #19 }
+INFO  16:18:50,590 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  ConstDecls(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDecl2(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+       rrp
+        IsArray(
+        ) [IsArray]
+        MoreVariables(
+          MoreVariables(
+            MoreVariables(
+              MoreVariables(
+                NoMoreVariables(
+                ) [NoMoreVariables]
+               f
+                NotArray(
+                ) [NotArray]
+              ) [MoreVariables]
+             m
+              NotArray(
+              ) [NotArray]
+            ) [MoreVariables]
+           p
+            IsArray(
+            ) [IsArray]
+          ) [MoreVariables]
+         o
+          NotArray(
+          ) [NotArray]
+        ) [MoreVariables]
+      ) [VarDecl2]
+    ) [ConstDecls]
+    ConstDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      ConstantAssign(
+       r
+        NumConst(
+         32
+        ) [NumConst]
+      ) [ConstantAssign]
+      MoreConstantsComma(
+        MoreConstantsComma(
+          NoMoreConstants(
+          ) [NoMoreConstants]
+          ConstantAssign(
+           e
+            NumConst(
+             32
+            ) [NumConst]
+          ) [ConstantAssign]
+        ) [MoreConstantsComma]
+        ConstantAssign(
+         o
+          NumConst(
+           65
+          ) [NumConst]
+        ) [ConstantAssign]
+      ) [MoreConstantsComma]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      VoidRetType(
+      ) [VoidRetType]
+     main
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        VarDecl1(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+         a
+          NotArray(
+          ) [NotArray]
+          NoMoreVariables(
+          ) [NoMoreVariables]
+        ) [VarDecl1]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        NoStatement(
+                                        ) [NoStatement]
+                                        DesignStatement(
+                                          DesignatorEqual(
+                                            DesignatorExpr(
+                                              TypeNoScope(
+                                               bodovi
+                                              ) [TypeNoScope]
+                                              NoDesignExpression(
+                                              ) [NoDesignExpression]
+                                            ) [DesignatorExpr]
+                                            OneTermExpr(
+                                              OneFactor(
+                                                FactorNum(
+                                                 0
+                                                ) [FactorNum]
+                                              ) [OneFactor]
+                                            ) [OneTermExpr]
+                                          ) [DesignatorEqual]
+                                        ) [DesignStatement]
+                                      ) [Statements]
+                                      DesignStatement(
+                                        DesignatorInc(
+                                          DesignatorExpr(
+                                            TypeNoScope(
+                                             bodovi
+                                            ) [TypeNoScope]
+                                            NoDesignExpression(
+                                            ) [NoDesignExpression]
+                                          ) [DesignatorExpr]
+                                        ) [DesignatorInc]
+                                      ) [DesignStatement]
+                                    ) [Statements]
+                                    DesignStatement(
+                                      DesignatorEqual(
+                                        DesignatorExpr(
+                                          TypeNoScope(
+                                           bodovi
+                                          ) [TypeNoScope]
+                                          NoDesignExpression(
+                                          ) [NoDesignExpression]
+                                        ) [DesignatorExpr]
+                                        ExpressionList(
+                                          OneTermExpr(
+                                            OneFactor(
+                                              FactorDesignator(
+                                                DesignatorExpr(
+                                                  TypeNoScope(
+                                                   bodovi
+                                                  ) [TypeNoScope]
+                                                  NoDesignExpression(
+                                                  ) [NoDesignExpression]
+                                                ) [DesignatorExpr]
+                                              ) [FactorDesignator]
+                                            ) [OneFactor]
+                                          ) [OneTermExpr]
+                                          Add(
+                                          ) [Add]
+                                          OneFactor(
+                                            FactorDesignator(
+                                              DesignatorExpr(
+                                                TypeWScope(
+                                                 Konstante
+                                                 jedan
+                                                ) [TypeWScope]
+                                                NoDesignExpression(
+                                                ) [NoDesignExpression]
+                                              ) [DesignatorExpr]
+                                            ) [FactorDesignator]
+                                          ) [OneFactor]
+                                        ) [ExpressionList]
+                                      ) [DesignatorEqual]
+                                    ) [DesignStatement]
+                                  ) [Statements]
+                                  DesignStatement(
+                                    DesignatorEqual(
+                                      DesignatorExpr(
+                                        TypeNoScope(
+                                         bodovi
+                                        ) [TypeNoScope]
+                                        NoDesignExpression(
+                                        ) [NoDesignExpression]
+                                      ) [DesignatorExpr]
+                                      OneTermExpr(
+                                        MoreFactors(
+                                          OneFactor(
+                                            FactorDesignator(
+                                              DesignatorExpr(
+                                                TypeNoScope(
+                                                 bodovi
+                                                ) [TypeNoScope]
+                                                NoDesignExpression(
+                                                ) [NoDesignExpression]
+                                              ) [DesignatorExpr]
+                                            ) [FactorDesignator]
+                                          ) [OneFactor]
+                                          Mul(
+                                          ) [Mul]
+                                          FactorDesignator(
+                                            DesignatorExpr(
+                                              TypeWScope(
+                                               Konstante
+                                               pet
+                                              ) [TypeWScope]
+                                              NoDesignExpression(
+                                              ) [NoDesignExpression]
+                                            ) [DesignatorExpr]
+                                          ) [FactorDesignator]
+                                        ) [MoreFactors]
+                                      ) [OneTermExpr]
+                                    ) [DesignatorEqual]
+                                  ) [DesignStatement]
+                                ) [Statements]
+                                DesignStatement(
+                                  DesignatorDec(
+                                    DesignatorExpr(
+                                      TypeNoScope(
+                                       bodovi
+                                      ) [TypeNoScope]
+                                      NoDesignExpression(
+                                      ) [NoDesignExpression]
+                                    ) [DesignatorExpr]
+                                  ) [DesignatorDec]
+                                ) [DesignStatement]
+                              ) [Statements]
+                              PrintStatement(
+                                OneTermExpr(
+                                  OneFactor(
+                                    FactorDesignator(
+                                      DesignatorExpr(
+                                        TypeNoScope(
+                                         bodovi
+                                        ) [TypeNoScope]
+                                        NoDesignExpression(
+                                        ) [NoDesignExpression]
+                                      ) [DesignatorExpr]
+                                    ) [FactorDesignator]
+                                  ) [OneFactor]
+                                ) [OneTermExpr]
+                                NoMoreNumConsts(
+                                ) [NoMoreNumConsts]
+                              ) [PrintStatement]
+                            ) [Statements]
+                            DesignStatement(
+                              DesignatorWParams(
+                                DesignatorExpr(
+                                  TypeNoScope(
+                                   a
+                                  ) [TypeNoScope]
+                                  NoDesignExpression(
+                                  ) [NoDesignExpression]
+                                ) [DesignatorExpr]
+                                NoActParams(
+                                ) [NoActParams]
+                              ) [DesignatorWParams]
+                            ) [DesignStatement]
+                          ) [Statements]
+                          DesignStatement(
+                            DesignatorWParams(
+                              DesignatorExpr(
+                                TypeNoScope(
+                                 b
+                                ) [TypeNoScope]
+                                NoDesignExpression(
+                                ) [NoDesignExpression]
+                              ) [DesignatorExpr]
+                              ActParamList(
+                                SingleActParam(
+                                  OneTermExpr(
+                                    OneFactor(
+                                      FactorDesignator(
+                                        DesignatorExpr(
+                                          TypeNoScope(
+                                           d
+                                          ) [TypeNoScope]
+                                          NoDesignExpression(
+                                          ) [NoDesignExpression]
+                                        ) [DesignatorExpr]
+                                      ) [FactorDesignator]
+                                    ) [OneFactor]
+                                  ) [OneTermExpr]
+                                ) [SingleActParam]
+                              ) [ActParamList]
+                            ) [DesignatorWParams]
+                          ) [DesignStatement]
+                        ) [Statements]
+                        DesignStatement(
+                          DesignatorWParams(
+                            DesignatorExpr(
+                              TypeNoScope(
+                               c
+                              ) [TypeNoScope]
+                              NoDesignExpression(
+                              ) [NoDesignExpression]
+                            ) [DesignatorExpr]
+                            ActParamList(
+                              MultipleActParams(
+                                MultipleActParams(
+                                  SingleActParam(
+                                    OneTermExpr(
+                                      OneFactor(
+                                        FactorDesignator(
+                                          DesignatorExpr(
+                                            TypeNoScope(
+                                             l
+                                            ) [TypeNoScope]
+                                            NoDesignExpression(
+                                            ) [NoDesignExpression]
+                                          ) [DesignatorExpr]
+                                        ) [FactorDesignator]
+                                      ) [OneFactor]
+                                    ) [OneTermExpr]
+                                  ) [SingleActParam]
+                                  OneTermExpr(
+                                    OneFactor(
+                                      FactorDesignator(
+                                        DesignatorExpr(
+                                          TypeNoScope(
+                                           c
+                                          ) [TypeNoScope]
+                                          NoDesignExpression(
+                                          ) [NoDesignExpression]
+                                        ) [DesignatorExpr]
+                                      ) [FactorDesignator]
+                                    ) [OneFactor]
+                                  ) [OneTermExpr]
+                                ) [MultipleActParams]
+                                OneTermExpr(
+                                  OneFactor(
+                                    FactorDesignator(
+                                      DesignatorExpr(
+                                        TypeNoScope(
+                                         d
+                                        ) [TypeNoScope]
+                                        NoDesignExpression(
+                                        ) [NoDesignExpression]
+                                      ) [DesignatorExpr]
+                                    ) [FactorDesignator]
+                                  ) [OneFactor]
+                                ) [OneTermExpr]
+                              ) [MultipleActParams]
+                            ) [ActParamList]
+                          ) [DesignatorWParams]
+                        ) [DesignStatement]
+                      ) [Statements]
+                      DesignStatement(
+                        DesignatorArray(
+                          DesignatorArrayListDerived1(
+                            DesignatorArrayListDerived1(
+                              EndOfAnDesignArrayList(
+                              ) [EndOfAnDesignArrayList]
+                              HasDesign(
+                                DesignatorExpr(
+                                  TypeNoScope(
+                                   s
+                                  ) [TypeNoScope]
+                                  NoDesignExpression(
+                                  ) [NoDesignExpression]
+                                ) [DesignatorExpr]
+                              ) [HasDesign]
+                            ) [DesignatorArrayListDerived1]
+                            NoDesign(
+                            ) [NoDesign]
+                          ) [DesignatorArrayListDerived1]
+                          DesignatorExpr(
+                            TypeNoScope(
+                             a
+                            ) [TypeNoScope]
+                            NoDesignExpression(
+                            ) [NoDesignExpression]
+                          ) [DesignatorExpr]
+                          DesignatorExpr(
+                            TypeNoScope(
+                             d
+                            ) [TypeNoScope]
+                            NoDesignExpression(
+                            ) [NoDesignExpression]
+                          ) [DesignatorExpr]
+                        ) [DesignatorArray]
+                      ) [DesignStatement]
+                    ) [Statements]
+                    BreakStatement(
+                    ) [BreakStatement]
+                  ) [Statements]
+                  ReturnStatement(
+                  ) [ReturnStatement]
+                ) [Statements]
+                ContinueStatement(
+                ) [ContinueStatement]
+              ) [Statements]
+              ReturnStatementExpr(
+                OneTermExpr(
+                  OneFactor(
+                    FactorBool(
+                     true
+                    ) [FactorBool]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [ReturnStatementExpr]
+            ) [Statements]
+            IfStatement(
+              IfCondition(
+                TermCondition(
+                  ManyFactConditions(
+                    ManyFactConditions(
+                      FactCondition(
+                        CondFactExpression(
+                          OneTermExpr(
+                            OneFactor(
+                              FactorDesignator(
+                                DesignatorExpr(
+                                  TypeNoScope(
+                                   a
+                                  ) [TypeNoScope]
+                                  NoDesignExpression(
+                                  ) [NoDesignExpression]
+                                ) [DesignatorExpr]
+                              ) [FactorDesignator]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [CondFactExpression]
+                      ) [FactCondition]
+                      CondFactExpression(
+                        OneTermExpr(
+                          OneFactor(
+                            FactorDesignator(
+                              DesignatorExpr(
+                                TypeNoScope(
+                                 d||o
+                                ) [TypeNoScope]
+                                NoDesignExpression(
+                                ) [NoDesignExpression]
+                              ) [DesignatorExpr]
+                            ) [FactorDesignator]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [CondFactExpression]
+                    ) [ManyFactConditions]
+                    CondFactRelop(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorDesignator(
+                            DesignatorExpr(
+                              TypeNoScope(
+                               a
+                              ) [TypeNoScope]
+                              NoDesignExpression(
+                              ) [NoDesignExpression]
+                            ) [DesignatorExpr]
+                          ) [FactorDesignator]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                      Less(
+                      ) [Less]
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           56
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [CondFactRelop]
+                  ) [ManyFactConditions]
+                ) [TermCondition]
+              ) [IfCondition]
+              BreakStatement(
+              ) [BreakStatement]
+            ) [IfStatement]
+          ) [Statements]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorDesignatorParam(
+                  DesignatorExpr(
+                    TypeNoScope(
+                     ord
+                    ) [TypeNoScope]
+                    NoDesignExpression(
+                    ) [NoDesignExpression]
+                  ) [DesignatorExpr]
+                  ActParamList(
+                    SingleActParam(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorChar(
+                           A
+                          ) [FactorChar]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [SingleActParam]
+                  ) [ActParamList]
+                ) [FactorDesignatorParam]
+              ) [OneFactor]
+            ) [OneTermExpr]
+            NoMoreNumConsts(
+            ) [NoMoreNumConsts]
+          ) [PrintStatement]
+        ) [Statements]
+        IfElseStatement(
+          IfCondition(
+            ManyTermConditions(
+              TermCondition(
+                FactCondition(
+                  CondFactExpression(
+                    OneTermExpr(
+                      OneFactor(
+                        FactorDesignatorParam(
+                          DesignatorExpr(
+                            TypeNoScope(
+                             verify
+                            ) [TypeNoScope]
+                            NoDesignExpression(
+                            ) [NoDesignExpression]
+                          ) [DesignatorExpr]
+                          NoActParams(
+                          ) [NoActParams]
+                        ) [FactorDesignatorParam]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [CondFactExpression]
+                ) [FactCondition]
+              ) [TermCondition]
+              FactCondition(
+                CondFactRelop(
+                  OneTermExpr(
+                    OneFactor(
+                      FactorDesignator(
+                        DesignatorExpr(
+                          TypeNoScope(
+                           niz
+                          ) [TypeNoScope]
+                          DesignExpression(
+                            OneTermExpr(
+                              OneFactor(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [OneFactor]
+                            ) [OneTermExpr]
+                          ) [DesignExpression]
+                        ) [DesignatorExpr]
+                      ) [FactorDesignator]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                  Same(
+                  ) [Same]
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       4
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [CondFactRelop]
+              ) [FactCondition]
+            ) [ManyTermConditions]
+          ) [IfCondition]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorDesignatorParam(
+                  DesignatorExpr(
+                    TypeNoScope(
+                     ord
+                    ) [TypeNoScope]
+                    NoDesignExpression(
+                    ) [NoDesignExpression]
+                  ) [DesignatorExpr]
+                  ActParamList(
+                    SingleActParam(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorChar(
+                           A
+                          ) [FactorChar]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [SingleActParam]
+                  ) [ActParamList]
+                ) [FactorDesignatorParam]
+              ) [OneFactor]
+            ) [OneTermExpr]
+            NoMoreNumConsts(
+            ) [NoMoreNumConsts]
+          ) [PrintStatement]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorDesignatorParam(
+                  DesignatorExpr(
+                    TypeNoScope(
+                     ord
+                    ) [TypeNoScope]
+                    NoDesignExpression(
+                    ) [NoDesignExpression]
+                  ) [DesignatorExpr]
+                  ActParamList(
+                    SingleActParam(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorChar(
+                           a
+                          ) [FactorChar]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [SingleActParam]
+                  ) [ActParamList]
+                ) [FactorDesignatorParam]
+              ) [OneFactor]
+            ) [OneTermExpr]
+            NoMoreNumConsts(
+            ) [NoMoreNumConsts]
+          ) [PrintStatement]
+        ) [IfElseStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  16:18:50,591 - ============================================

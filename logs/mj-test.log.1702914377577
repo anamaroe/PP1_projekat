@@ -1,0 +1,96 @@
+INFO  16:46:01,900 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:46:01,917 - #2 program
+INFO  16:46:01,917 - #47 MojProgram
+INFO  16:46:01,917 - #3 namespace
+INFO  16:46:01,918 - #47 SPace
+INFO  16:46:01,918 - #17 {
+INFO  16:46:01,918 - #17 {
+INFO  16:46:01,919 - #6 void
+INFO  16:46:01,919 - #47 fun
+INFO  16:46:01,920 - #19 (
+INFO  16:46:01,920 - #47 int
+INFO  16:46:01,920 - #47 a
+INFO  16:46:01,920 - #40 ,
+INFO  16:46:01,921 - #47 char
+INFO  16:46:01,921 - #47 b
+INFO  16:46:01,921 - #20 )
+INFO  16:46:01,922 - #17 {
+INFO  16:46:01,922 - #7 if
+INFO  16:46:01,922 - #18 }
+INFO  16:46:01,923 - #47 int
+INFO  16:46:01,924 - #47 meth
+INFO  16:46:01,924 - #19 (
+INFO  16:46:01,924 - #20 )
+INFO  16:46:01,924 - #17 {
+INFO  16:46:01,924 - #7 if
+INFO  16:46:01,924 - #18 }
+INFO  16:46:01,924 - #18 }
+INFO  16:46:01,924 - #18 }
+INFO  16:46:01,925 - #17 {
+INFO  16:46:01,925 - #18 }
+INFO  16:46:01,926 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    HasNamespace2(
+      NamespaceName(
+       SPace
+      ) [NamespaceName]
+      NamespaceDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        MoreMethodDecls(
+          MoreMethodDecls(
+            NoMoreMethodDeclarations(
+            ) [NoMoreMethodDeclarations]
+            MethodDeclaration(
+              VoidRetType(
+              ) [VoidRetType]
+             fun
+              HasFormalParams(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+               a
+                NotArray(
+                ) [NotArray]
+                MoreFormParams(
+                  NoMoreParams(
+                  ) [NoMoreParams]
+                  Parameter(
+                    TypeNoScope(
+                     char
+                    ) [TypeNoScope]
+                   b
+                    NotArray(
+                    ) [NotArray]
+                  ) [Parameter]
+                ) [MoreFormParams]
+              ) [HasFormalParams]
+              NoMoreVarDecls1(
+              ) [NoMoreVarDecls1]
+              Iff(
+              ) [Iff]
+            ) [MethodDeclaration]
+          ) [MoreMethodDecls]
+          MethodDeclaration(
+            NonVoidRetType(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+            ) [NonVoidRetType]
+           meth
+            NoFormalParams(
+            ) [NoFormalParams]
+            NoMoreVarDecls1(
+            ) [NoMoreVarDecls1]
+            Iff(
+            ) [Iff]
+          ) [MethodDeclaration]
+        ) [MoreMethodDecls]
+      ) [NamespaceDecls]
+    ) [HasNamespace2]
+  ) [HasNamespace1]
+) [Program]
+INFO  16:46:01,926 - ============================================

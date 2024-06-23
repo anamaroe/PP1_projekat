@@ -1,0 +1,369 @@
+INFO  10:35:29,284 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  10:35:29,347 - #2 program
+INFO  10:35:29,347 - #48 MojProgram
+INFO  10:35:29,347 - #3 namespace
+INFO  10:35:29,348 - #48 Konstante
+INFO  10:35:29,348 - #18 {
+INFO  10:35:29,349 - #16 const
+INFO  10:35:29,349 - #48 int
+INFO  10:35:29,350 - #48 nula
+INFO  10:35:29,350 - #24 =
+INFO  10:35:29,350 - #47 0
+INFO  10:35:29,350 - #40 ;
+INFO  10:35:29,351 - #16 const
+INFO  10:35:29,351 - #48 int
+INFO  10:35:29,351 - #48 jedan
+INFO  10:35:29,352 - #24 =
+INFO  10:35:29,352 - #47 1
+INFO  10:35:29,352 - #40 ;
+INFO  10:35:29,352 - #48 int
+INFO  10:35:29,352 - #48 pet
+INFO  10:35:29,352 - #40 ;
+INFO  10:35:29,356 - #18 {
+INFO  10:35:29,356 - #19 }
+INFO  10:35:29,357 - #19 }
+INFO  10:35:29,358 - #48 int
+INFO  10:35:29,359 - #48 x
+INFO  10:35:29,359 - #40 ;
+INFO  10:35:29,359 - #48 int
+INFO  10:35:29,359 - #48 y
+INFO  10:35:29,359 - #40 ;
+INFO  10:35:29,359 - #48 int
+INFO  10:35:29,360 - #48 niz
+INFO  10:35:29,360 - #22 [
+INFO  10:35:29,360 - #23 ]
+INFO  10:35:29,360 - #40 ;
+INFO  10:35:29,361 - #18 {
+INFO  10:35:29,361 - #48 int
+INFO  10:35:29,361 - #48 main
+INFO  10:35:29,362 - #20 (
+INFO  10:35:29,362 - #21 )
+INFO  10:35:29,363 - #18 {
+INFO  10:35:29,365 - #48 Konstante
+INFO  10:35:29,365 - #44 :
+INFO  10:35:29,365 - #44 :
+INFO  10:35:29,366 - #48 pet
+INFO  10:35:29,366 - #24 =
+INFO  10:35:29,366 - #47 5
+INFO  10:35:29,366 - #40 ;
+INFO  10:35:29,367 - #48 x
+INFO  10:35:29,368 - #24 =
+INFO  10:35:29,368 - #47 3
+INFO  10:35:29,368 - #40 ;
+INFO  10:35:29,368 - #48 Konstante
+INFO  10:35:29,369 - #44 :
+INFO  10:35:29,369 - #44 :
+INFO  10:35:29,369 - #48 pet
+INFO  10:35:29,369 - #24 =
+INFO  10:35:29,369 - #47 2
+INFO  10:35:29,369 - #40 ;
+INFO  10:35:29,369 - #5 print
+INFO  10:35:29,369 - #20 (
+INFO  10:35:29,370 - #45 true
+INFO  10:35:29,370 - #21 )
+INFO  10:35:29,370 - #40 ;
+INFO  10:35:29,370 - #5 print
+INFO  10:35:29,371 - #20 (
+INFO  10:35:29,371 - #46 a
+INFO  10:35:29,371 - #21 )
+INFO  10:35:29,372 - #40 ;
+INFO  10:35:29,372 - #5 print
+INFO  10:35:29,372 - #20 (
+INFO  10:35:29,372 - #26 -
+INFO  10:35:29,372 - #48 Konstante
+INFO  10:35:29,372 - #44 :
+INFO  10:35:29,372 - #44 :
+INFO  10:35:29,373 - #48 pet
+INFO  10:35:29,373 - #21 )
+INFO  10:35:29,373 - #40 ;
+INFO  10:35:29,373 - #5 print
+INFO  10:35:29,374 - #20 (
+INFO  10:35:29,374 - #47 9
+INFO  10:35:29,374 - #26 -
+INFO  10:35:29,374 - #47 8
+INFO  10:35:29,376 - #21 )
+INFO  10:35:29,377 - #40 ;
+INFO  10:35:29,377 - #6 return
+INFO  10:35:29,377 - #47 0
+INFO  10:35:29,377 - #40 ;
+INFO  10:35:29,378 - #19 }
+INFO  10:35:29,378 - #19 }
+INFO  10:35:29,397 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    NoNamespace(
+    ) [NoNamespace]
+    HasNamespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        VariableDeclaration2(
+          ConstDecls(
+            ConstDecls(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDecl(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+                NumConst(
+                 nula
+                 0
+                ) [NumConst]
+                NoMoreConstants(
+                ) [NoMoreConstants]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+              NumConst(
+               jedan
+               1
+              ) [NumConst]
+              NoMoreConstants(
+              ) [NoMoreConstants]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          NoMoreVarDecl(
+            TypeNoScope(
+             int
+            ) [TypeNoScope]
+            VarSingleSemi(
+             pet
+              NotArray(
+              ) [NotArray]
+            ) [VarSingleSemi]
+          ) [NoMoreVarDecl]
+        ) [VariableDeclaration2]
+        NoMoreMethodDeclarations(
+        ) [NoMoreMethodDeclarations]
+      ) [Declarations]
+    ) [HasNamespace]
+  ) [HasNamespace1]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      VariableDeclaration2(
+        NoDeclarations(
+        ) [NoDeclarations]
+        NoMoreVarDecl(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+          VarSingleSemi(
+           x
+            NotArray(
+            ) [NotArray]
+          ) [VarSingleSemi]
+        ) [NoMoreVarDecl]
+      ) [VariableDeclaration2]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         y
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       niz
+        IsArray(
+        ) [IsArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        NonVoidRetType(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+        ) [NonVoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      NoMoreVarDecls1(
+      ) [NoMoreVarDecls1]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      NoStatement(
+                      ) [NoStatement]
+                      DesignStatement(
+                        DesignatorStatementSemi(
+                          DesignatorEqual(
+                            DesignatorScopedIdent(
+                             Konstante
+                             pet
+                            ) [DesignatorScopedIdent]
+                            OneTermExpr(
+                              OneFactor(
+                                FactorNum(
+                                 5
+                                ) [FactorNum]
+                              ) [OneFactor]
+                            ) [OneTermExpr]
+                          ) [DesignatorEqual]
+                        ) [DesignatorStatementSemi]
+                      ) [DesignStatement]
+                    ) [Statements]
+                    DesignStatement(
+                      DesignatorStatementSemi(
+                        DesignatorEqual(
+                          DesignatorIdent(
+                           x
+                          ) [DesignatorIdent]
+                          OneTermExpr(
+                            OneFactor(
+                              FactorNum(
+                               3
+                              ) [FactorNum]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [DesignatorEqual]
+                      ) [DesignatorStatementSemi]
+                    ) [DesignStatement]
+                  ) [Statements]
+                  DesignStatement(
+                    DesignatorStatementSemi(
+                      DesignatorEqual(
+                        DesignatorScopedIdent(
+                         Konstante
+                         pet
+                        ) [DesignatorScopedIdent]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [DesignatorEqual]
+                    ) [DesignatorStatementSemi]
+                  ) [DesignStatement]
+                ) [Statements]
+                PrintStatement(
+                  OneTermExpr(
+                    OneFactor(
+                      FactorBool(
+                       true
+                      ) [FactorBool]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [PrintStatement]
+              ) [Statements]
+              PrintStatement(
+                OneTermExpr(
+                  OneFactor(
+                    FactorChar(
+                     a
+                    ) [FactorChar]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [PrintStatement]
+            ) [Statements]
+            PrintStatement(
+              NegTermExpr(
+                OneFactor(
+                  FactorDesignator(
+                    DesignatorScopedIdent(
+                     Konstante
+                     pet
+                    ) [DesignatorScopedIdent]
+                  ) [FactorDesignator]
+                ) [OneFactor]
+              ) [NegTermExpr]
+            ) [PrintStatement]
+          ) [Statements]
+          PrintStatement(
+            ExpressionList(
+              OneTermExpr(
+                OneFactor(
+                  FactorNum(
+                   9
+                  ) [FactorNum]
+                ) [OneFactor]
+              ) [OneTermExpr]
+              Sub(
+              ) [Sub]
+              OneFactor(
+                FactorNum(
+                 8
+                ) [FactorNum]
+              ) [OneFactor]
+            ) [ExpressionList]
+          ) [PrintStatement]
+        ) [Statements]
+        ReturnStatementExpr(
+          OneTermExpr(
+            OneFactor(
+              FactorNum(
+               0
+              ) [FactorNum]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [ReturnStatementExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  10:35:29,397 - ============================================
+INFO  10:35:29,403 - Koriscenje promenljive Konstante::pet [Var Konstante::pet: int, 0, 0 ] na liniji 15
+INFO  10:35:29,403 - Koriscenje promenljive x [Var x: int, 1, 0 ] na liniji 16
+INFO  10:35:29,403 - Koriscenje promenljive Konstante::pet [Var Konstante::pet: int, 0, 0 ] na liniji 17
+INFO  10:35:29,403 - Poziv metode print() na liniji 18
+INFO  10:35:29,404 - Poziv metode print() na liniji 19
+INFO  10:35:29,404 - Koriscenje promenljive Konstante::pet [Var Konstante::pet: int, 0, 0 ] na liniji 20
+INFO  10:35:29,404 - Poziv metode print() na liniji 20
+INFO  10:35:29,404 - adasdadsSub(
+) [Sub]
+INFO  10:35:29,404 - Poziv metode print() na liniji 21
+INFO  10:35:29,404 - ============================================
+INFO  10:35:29,405 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Con Konstante::nula: int, 0, 0 
+   Con Konstante::jedan: int, 1, 0 
+   Var Konstante::pet: int, 0, 0 
+   Var x: int, 1, 0 
+   Var y: int, 2, 0 
+   Var niz: Arr of int, 3, 0 
+   Meth main: int, 0, 0 
+
+
+
+INFO  10:35:29,416 - Parsiranje uspesno zavrseno!

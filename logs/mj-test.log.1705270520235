@@ -1,0 +1,320 @@
+INFO  23:05:32,619 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\if.mj
+INFO  23:05:32,698 - #2 program
+INFO  23:05:32,699 - #48 MJProgram
+INFO  23:05:32,699 - #18 {
+INFO  23:05:32,700 - #7 void
+INFO  23:05:32,702 - #48 main
+INFO  23:05:32,702 - #20 (
+INFO  23:05:32,703 - #21 )
+INFO  23:05:32,703 - #18 {
+INFO  23:05:32,705 - #8 if
+INFO  23:05:32,706 - #20 (
+INFO  23:05:32,706 - #47 3
+INFO  23:05:32,706 - #34 <
+INFO  23:05:32,706 - #47 2
+INFO  23:05:32,707 - #29 &&
+INFO  23:05:32,707 - #47 5
+INFO  23:05:32,707 - #38 !=
+INFO  23:05:32,707 - #47 4
+INFO  23:05:32,708 - #29 &&
+INFO  23:05:32,708 - #45 true
+INFO  23:05:32,708 - #30 ||
+INFO  23:05:32,710 - #47 6
+INFO  23:05:32,710 - #35 >
+INFO  23:05:32,710 - #47 7
+INFO  23:05:32,711 - #29 &&
+INFO  23:05:32,711 - #47 9
+INFO  23:05:32,711 - #34 <
+INFO  23:05:32,711 - #47 10
+INFO  23:05:32,711 - #21 )
+INFO  23:05:32,711 - #18 {
+INFO  23:05:32,712 - #5 print
+INFO  23:05:32,712 - #20 (
+INFO  23:05:32,712 - #47 2
+INFO  23:05:32,712 - #21 )
+INFO  23:05:32,712 - #40 ;
+INFO  23:05:32,712 - #19 }
+INFO  23:05:32,712 - #9 else
+INFO  23:05:32,713 - #18 {
+INFO  23:05:32,714 - #5 print
+INFO  23:05:32,714 - #20 (
+INFO  23:05:32,714 - #47 3
+INFO  23:05:32,714 - #21 )
+INFO  23:05:32,714 - #40 ;
+INFO  23:05:32,714 - #8 if
+INFO  23:05:32,714 - #20 (
+INFO  23:05:32,714 - #46 a
+INFO  23:05:32,714 - #34 <
+INFO  23:05:32,714 - #46 b
+INFO  23:05:32,714 - #21 )
+INFO  23:05:32,714 - #18 {
+INFO  23:05:32,714 - #5 print
+INFO  23:05:32,714 - #20 (
+INFO  23:05:32,714 - #46 a
+INFO  23:05:32,714 - #21 )
+INFO  23:05:32,714 - #40 ;
+INFO  23:05:32,714 - #19 }
+INFO  23:05:32,714 - #9 else
+INFO  23:05:32,716 - #18 {
+INFO  23:05:32,716 - #5 print
+INFO  23:05:32,716 - #20 (
+INFO  23:05:32,716 - #46 b
+INFO  23:05:32,716 - #21 )
+INFO  23:05:32,716 - #40 ;
+INFO  23:05:32,716 - #19 }
+INFO  23:05:32,716 - #19 }
+INFO  23:05:32,716 - #19 }
+INFO  23:05:32,716 - #19 }
+INFO  23:05:32,724 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      NoMoreVarDecls1(
+      ) [NoMoreVarDecls1]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        NoStatement(
+        ) [NoStatement]
+        IfElseStatement(
+          IfConditional(
+            ManyTermConditions(
+              TermCondition(
+                ManyFactConditions(
+                  ManyFactConditions(
+                    FactCondition(
+                      CondFactRelop(
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             3
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                        Less(
+                        ) [Less]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [CondFactRelop]
+                    ) [FactCondition]
+                    CondFactRelop(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           5
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                      NotSame(
+                      ) [NotSame]
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           4
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [CondFactRelop]
+                  ) [ManyFactConditions]
+                  CondFactExpression(
+                    OneTermExpr(
+                      OneFactor(
+                        FactorBool(
+                         true
+                        ) [FactorBool]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [CondFactExpression]
+                ) [ManyFactConditions]
+              ) [TermCondition]
+              NextToLastOr(
+              ) [NextToLastOr]
+              ManyFactConditions(
+                FactCondition(
+                  CondFactRelop(
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNum(
+                         6
+                        ) [FactorNum]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                    Greater(
+                    ) [Greater]
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNum(
+                         7
+                        ) [FactorNum]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [CondFactRelop]
+                ) [FactCondition]
+                CondFactRelop(
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       9
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                  Less(
+                  ) [Less]
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       10
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [CondFactRelop]
+              ) [ManyFactConditions]
+            ) [ManyTermConditions]
+            EndOfIfCondition(
+            ) [EndOfIfCondition]
+          ) [IfConditional]
+          BracesStatement(
+            Statements(
+              NoStatement(
+              ) [NoStatement]
+              PrintStatement(
+                OneTermExpr(
+                  OneFactor(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [PrintStatement]
+            ) [Statements]
+          ) [BracesStatement]
+          AfterIf(
+          ) [AfterIf]
+          BracesStatement(
+            Statements(
+              Statements(
+                NoStatement(
+                ) [NoStatement]
+                PrintStatement(
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [PrintStatement]
+              ) [Statements]
+              IfElseStatement(
+                IfConditional(
+                  TermCondition(
+                    FactCondition(
+                      CondFactRelop(
+                        OneTermExpr(
+                          OneFactor(
+                            FactorChar(
+                             a
+                            ) [FactorChar]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                        Less(
+                        ) [Less]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorChar(
+                             b
+                            ) [FactorChar]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [CondFactRelop]
+                    ) [FactCondition]
+                  ) [TermCondition]
+                  EndOfIfCondition(
+                  ) [EndOfIfCondition]
+                ) [IfConditional]
+                BracesStatement(
+                  Statements(
+                    NoStatement(
+                    ) [NoStatement]
+                    PrintStatement(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorChar(
+                           a
+                          ) [FactorChar]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [PrintStatement]
+                  ) [Statements]
+                ) [BracesStatement]
+                AfterIf(
+                ) [AfterIf]
+                BracesStatement(
+                  Statements(
+                    NoStatement(
+                    ) [NoStatement]
+                    PrintStatement(
+                      OneTermExpr(
+                        OneFactor(
+                          FactorChar(
+                           b
+                          ) [FactorChar]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [PrintStatement]
+                  ) [Statements]
+                ) [BracesStatement]
+              ) [IfElseStatement]
+            ) [Statements]
+          ) [BracesStatement]
+        ) [IfElseStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  23:05:32,725 - ============================================
+INFO  23:05:32,730 - Poziv metode print() na liniji 9
+INFO  23:05:32,730 - Poziv metode print() na liniji 13
+INFO  23:05:32,730 - Poziv metode print() na liniji 15
+INFO  23:05:32,730 - Poziv metode print() na liniji 18
+INFO  23:05:32,730 - ============================================
+INFO  23:05:32,730 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MJProgram: notype, 0, 1 
+   Meth main: notype, 0, 0 
+
+
+
+INFO  23:05:32,736 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,311 @@
+INFO  21:49:49,111 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:49:49,134 - #2 program
+INFO  21:49:49,134 - #48 MojProgram
+INFO  21:49:49,134 - #48 int
+INFO  21:49:49,136 - #48 rrp
+INFO  21:49:49,136 - #22 [
+INFO  21:49:49,136 - #23 ]
+INFO  21:49:49,136 - #41 ,
+INFO  21:49:49,137 - #48 f
+INFO  21:49:49,137 - #41 ,
+INFO  21:49:49,137 - #48 m
+INFO  21:49:49,137 - #41 ,
+INFO  21:49:49,137 - #48 p
+INFO  21:49:49,137 - #22 [
+INFO  21:49:49,138 - #23 ]
+INFO  21:49:49,138 - #41 ,
+INFO  21:49:49,138 - #48 o
+INFO  21:49:49,138 - #40 ;
+INFO  21:49:49,138 - #16 const
+INFO  21:49:49,138 - #48 int
+INFO  21:49:49,138 - #48 r
+INFO  21:49:49,138 - #24 =
+INFO  21:49:49,140 - #47 32
+INFO  21:49:49,140 - #41 ,
+INFO  21:49:49,140 - #48 e
+INFO  21:49:49,140 - #24 =
+INFO  21:49:49,140 - #47 32
+INFO  21:49:49,140 - #40 ;
+INFO  21:49:49,140 - #18 {
+INFO  21:49:49,140 - #7 void
+INFO  21:49:49,141 - #48 main
+INFO  21:49:49,141 - #20 (
+INFO  21:49:49,141 - #21 )
+INFO  21:49:49,141 - #48 int
+INFO  21:49:49,142 - #48 a
+INFO  21:49:49,142 - #40 ;
+INFO  21:49:49,142 - #18 {
+INFO  21:49:49,142 - #48 bodovi
+INFO  21:49:49,142 - #24 =
+INFO  21:49:49,142 - #47 0
+INFO  21:49:49,142 - #40 ;
+INFO  21:49:49,143 - #48 bodovi
+INFO  21:49:49,143 - #32 ++
+INFO  21:49:49,143 - #40 ;
+INFO  21:49:49,143 - #48 bodovi
+INFO  21:49:49,143 - #24 =
+INFO  21:49:49,143 - #48 bodovi
+INFO  21:49:49,143 - #25 +
+INFO  21:49:49,143 - #48 Konstante
+INFO  21:49:49,144 - #44 :
+INFO  21:49:49,144 - #44 :
+INFO  21:49:49,144 - #48 jedan
+INFO  21:49:49,144 - #40 ;
+INFO  21:49:49,144 - #48 bodovi
+INFO  21:49:49,144 - #24 =
+INFO  21:49:49,144 - #48 bodovi
+INFO  21:49:49,144 - #27 *
+INFO  21:49:49,144 - #48 Konstante
+INFO  21:49:49,145 - #44 :
+INFO  21:49:49,145 - #44 :
+INFO  21:49:49,145 - #48 pet
+INFO  21:49:49,145 - #40 ;
+INFO  21:49:49,145 - #48 bodovi
+INFO  21:49:49,145 - #33 --
+INFO  21:49:49,145 - #40 ;
+INFO  21:49:49,145 - #5 print
+INFO  21:49:49,145 - #20 (
+INFO  21:49:49,145 - #48 bodovi
+INFO  21:49:49,145 - #21 )
+INFO  21:49:49,146 - #40 ;
+INFO  21:49:49,146 - #19 }
+INFO  21:49:49,147 - #19 }
+INFO  21:49:49,148 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  ConstDecls(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDecl2(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+       rrp
+        IsArray(
+        ) [IsArray]
+        MoreVariables(
+          MoreVariables(
+            MoreVariables(
+              MoreVariables(
+                NoMoreVariables(
+                ) [NoMoreVariables]
+               f
+                NotArray(
+                ) [NotArray]
+              ) [MoreVariables]
+             m
+              NotArray(
+              ) [NotArray]
+            ) [MoreVariables]
+           p
+            IsArray(
+            ) [IsArray]
+          ) [MoreVariables]
+         o
+          NotArray(
+          ) [NotArray]
+        ) [MoreVariables]
+      ) [VarDecl2]
+    ) [ConstDecls]
+    ConstDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      ConstantAssign(
+       r
+        NumConst(
+         32
+        ) [NumConst]
+      ) [ConstantAssign]
+      MoreConstantsComma(
+        NoMoreConstants(
+        ) [NoMoreConstants]
+        ConstantAssign(
+         e
+          NumConst(
+           32
+          ) [NumConst]
+        ) [ConstantAssign]
+      ) [MoreConstantsComma]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      VoidRetType(
+      ) [VoidRetType]
+     main
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        VarDecl1(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+         a
+          NotArray(
+          ) [NotArray]
+          NoMoreVariables(
+          ) [NoMoreVariables]
+        ) [VarDecl1]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStatement(
+                  ) [NoStatement]
+                  DesignStatement(
+                    DesignatorEqual(
+                      DesignatorExpr(
+                        TypeNoScope(
+                         bodovi
+                        ) [TypeNoScope]
+                        NoDesignExpression(
+                        ) [NoDesignExpression]
+                      ) [DesignatorExpr]
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           0
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [DesignatorEqual]
+                  ) [DesignStatement]
+                ) [Statements]
+                DesignStatement(
+                  DesignatorInc(
+                    DesignatorExpr(
+                      TypeNoScope(
+                       bodovi
+                      ) [TypeNoScope]
+                      NoDesignExpression(
+                      ) [NoDesignExpression]
+                    ) [DesignatorExpr]
+                  ) [DesignatorInc]
+                ) [DesignStatement]
+              ) [Statements]
+              DesignStatement(
+                DesignatorEqual(
+                  DesignatorExpr(
+                    TypeNoScope(
+                     bodovi
+                    ) [TypeNoScope]
+                    NoDesignExpression(
+                    ) [NoDesignExpression]
+                  ) [DesignatorExpr]
+                  ExpressionList(
+                    OneTermExpr(
+                      OneFactor(
+                        FactorDesignator(
+                          DesignatorExpr(
+                            TypeNoScope(
+                             bodovi
+                            ) [TypeNoScope]
+                            NoDesignExpression(
+                            ) [NoDesignExpression]
+                          ) [DesignatorExpr]
+                        ) [FactorDesignator]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                    Add(
+                    ) [Add]
+                    OneFactor(
+                      FactorDesignator(
+                        DesignatorExpr(
+                          TypeWScope(
+                           Konstante
+                           jedan
+                          ) [TypeWScope]
+                          NoDesignExpression(
+                          ) [NoDesignExpression]
+                        ) [DesignatorExpr]
+                      ) [FactorDesignator]
+                    ) [OneFactor]
+                  ) [ExpressionList]
+                ) [DesignatorEqual]
+              ) [DesignStatement]
+            ) [Statements]
+            DesignStatement(
+              DesignatorEqual(
+                DesignatorExpr(
+                  TypeNoScope(
+                   bodovi
+                  ) [TypeNoScope]
+                  NoDesignExpression(
+                  ) [NoDesignExpression]
+                ) [DesignatorExpr]
+                OneTermExpr(
+                  MoreFactors(
+                    OneFactor(
+                      FactorDesignator(
+                        DesignatorExpr(
+                          TypeNoScope(
+                           bodovi
+                          ) [TypeNoScope]
+                          NoDesignExpression(
+                          ) [NoDesignExpression]
+                        ) [DesignatorExpr]
+                      ) [FactorDesignator]
+                    ) [OneFactor]
+                    Mul(
+                    ) [Mul]
+                    FactorDesignator(
+                      DesignatorExpr(
+                        TypeWScope(
+                         Konstante
+                         pet
+                        ) [TypeWScope]
+                        NoDesignExpression(
+                        ) [NoDesignExpression]
+                      ) [DesignatorExpr]
+                    ) [FactorDesignator]
+                  ) [MoreFactors]
+                ) [OneTermExpr]
+              ) [DesignatorEqual]
+            ) [DesignStatement]
+          ) [Statements]
+          DesignStatement(
+            DesignatorDec(
+              DesignatorExpr(
+                TypeNoScope(
+                 bodovi
+                ) [TypeNoScope]
+                NoDesignExpression(
+                ) [NoDesignExpression]
+              ) [DesignatorExpr]
+            ) [DesignatorDec]
+          ) [DesignStatement]
+        ) [Statements]
+        PrintStatement(
+          OneTermExpr(
+            OneFactor(
+              FactorDesignator(
+                DesignatorExpr(
+                  TypeNoScope(
+                   bodovi
+                  ) [TypeNoScope]
+                  NoDesignExpression(
+                  ) [NoDesignExpression]
+                ) [DesignatorExpr]
+              ) [FactorDesignator]
+            ) [OneFactor]
+          ) [OneTermExpr]
+          NoMoreNumConsts(
+          ) [NoMoreNumConsts]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  21:49:49,148 - ============================================

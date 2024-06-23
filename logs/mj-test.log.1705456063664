@@ -1,0 +1,253 @@
+INFO  02:46:22,184 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  02:46:22,230 - #2 program
+INFO  02:46:22,230 - #48 MojProgram
+INFO  02:46:22,230 - #48 int
+INFO  02:46:22,232 - #48 x
+INFO  02:46:22,232 - #40 ;
+INFO  02:46:22,233 - #48 int
+INFO  02:46:22,234 - #48 j
+INFO  02:46:22,234 - #40 ;
+INFO  02:46:22,234 - #18 {
+INFO  02:46:22,234 - #7 void
+INFO  02:46:22,234 - #48 main
+INFO  02:46:22,235 - #20 (
+INFO  02:46:22,235 - #21 )
+INFO  02:46:22,235 - #48 int
+INFO  02:46:22,237 - #48 a
+INFO  02:46:22,237 - #22 [
+INFO  02:46:22,237 - #23 ]
+INFO  02:46:22,237 - #40 ;
+INFO  02:46:22,238 - #18 {
+INFO  02:46:22,238 - #48 a
+INFO  02:46:22,239 - #24 =
+INFO  02:46:22,239 - #12 new
+INFO  02:46:22,239 - #48 int
+INFO  02:46:22,239 - #22 [
+INFO  02:46:22,239 - #47 3
+INFO  02:46:22,239 - #23 ]
+INFO  02:46:22,239 - #40 ;
+INFO  02:46:22,239 - #48 a
+INFO  02:46:22,241 - #22 [
+INFO  02:46:22,242 - #47 0
+INFO  02:46:22,242 - #23 ]
+INFO  02:46:22,242 - #24 =
+INFO  02:46:22,242 - #47 7
+INFO  02:46:22,242 - #40 ;
+INFO  02:46:22,242 - #5 print
+INFO  02:46:22,242 - #20 (
+INFO  02:46:22,242 - #51 #
+INFO  02:46:22,242 - #48 a
+INFO  02:46:22,242 - #22 [
+INFO  02:46:22,242 - #47 1
+INFO  02:46:22,242 - #23 ]
+INFO  02:46:22,242 - #21 )
+INFO  02:46:22,244 - #40 ;
+INFO  02:46:22,244 - #5 print
+INFO  02:46:22,244 - #20 (
+INFO  02:46:22,244 - #51 #
+INFO  02:46:22,244 - #48 a
+INFO  02:46:22,244 - #22 [
+INFO  02:46:22,244 - #47 0
+INFO  02:46:22,245 - #23 ]
+INFO  02:46:22,245 - #21 )
+INFO  02:46:22,245 - #40 ;
+INFO  02:46:22,245 - #19 }
+INFO  02:46:22,245 - #19 }
+INFO  02:46:22,254 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       j
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        NoMoreVarDecl(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+          VarSingleSemi(
+           a
+            IsArray(
+            ) [IsArray]
+          ) [VarSingleSemi]
+        ) [NoMoreVarDecl]
+      ) [VarDeclarations]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatement(
+              ) [NoStatement]
+              DesignStatement(
+                DesignatorStatementSemi(
+                  DesignatorEqual(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNew(
+                          TypeNoScope(
+                           int
+                          ) [TypeNoScope]
+                          OneTermExpr(
+                            OneFactor(
+                              FactorNum(
+                               3
+                              ) [FactorNum]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [FactorNew]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [DesignatorEqual]
+                ) [DesignatorStatementSemi]
+              ) [DesignStatement]
+            ) [Statements]
+            DesignStatement(
+              DesignatorStatementSemi(
+                DesignatorEqual(
+                  DesignatorArrayIdent(
+                    DesignatorArrayName(
+                      DesignatorIdent(
+                       a
+                      ) [DesignatorIdent]
+                    ) [DesignatorArrayName]
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNum(
+                         0
+                        ) [FactorNum]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [DesignatorArrayIdent]
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       7
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [DesignatorEqual]
+              ) [DesignatorStatementSemi]
+            ) [DesignStatement]
+          ) [Statements]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                ArrAccess(
+                  DesignatorArrayName(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [DesignatorArrayName]
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [ArrAccess]
+              ) [OneFactor]
+            ) [OneTermExpr]
+          ) [PrintStatement]
+        ) [Statements]
+        PrintStatement(
+          OneTermExpr(
+            OneFactor(
+              ArrAccess(
+                DesignatorArrayName(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                ) [DesignatorArrayName]
+                OneTermExpr(
+                  OneFactor(
+                    FactorNum(
+                     0
+                    ) [FactorNum]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [ArrAccess]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  02:46:22,254 - ============================================
+INFO  02:46:22,259 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 11
+INFO  02:46:22,259 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 14
+INFO  02:46:22,259 - Pristup elementu niza a [Var a: Arr of int, 0, 1 ] na liniji 14
+INFO  02:46:22,259 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 16
+INFO  02:46:22,259 - Poziv metode print() na liniji 16
+INFO  02:46:22,259 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 17
+INFO  02:46:22,259 - Poziv metode print() na liniji 17
+INFO  02:46:22,259 - ============================================
+INFO  02:46:22,260 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Var banana: int, 0, 0 
+   Var mandarina: int, 1, 0 
+   Var x: int, 2, 0 
+   Var j: int, 3, 0 
+   Meth main: notype, 0, 0 
+      Var a: Arr of int, 0, 1 
+
+
+
+INFO  02:46:22,265 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,278 @@
+INFO  00:24:46,294 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:24:46,362 - #2 program
+INFO  00:24:46,362 - #48 MojProgram
+INFO  00:24:46,362 - #48 int
+INFO  00:24:46,363 - #48 x
+INFO  00:24:46,363 - #40 ;
+INFO  00:24:46,364 - #48 int
+INFO  00:24:46,364 - #48 j
+INFO  00:24:46,364 - #40 ;
+INFO  00:24:46,364 - #18 {
+INFO  00:24:46,364 - #7 void
+INFO  00:24:46,365 - #48 main
+INFO  00:24:46,365 - #20 (
+INFO  00:24:46,366 - #21 )
+INFO  00:24:46,366 - #48 int
+INFO  00:24:46,367 - #48 a
+INFO  00:24:46,367 - #22 [
+INFO  00:24:46,367 - #23 ]
+INFO  00:24:46,367 - #40 ;
+INFO  00:24:46,367 - #18 {
+INFO  00:24:46,368 - #48 x
+INFO  00:24:46,369 - #24 =
+INFO  00:24:46,371 - #47 2
+INFO  00:24:46,371 - #40 ;
+INFO  00:24:46,371 - #48 a
+INFO  00:24:46,372 - #24 =
+INFO  00:24:46,372 - #12 new
+INFO  00:24:46,372 - #48 int
+INFO  00:24:46,372 - #22 [
+INFO  00:24:46,372 - #47 3
+INFO  00:24:46,372 - #23 ]
+INFO  00:24:46,372 - #40 ;
+INFO  00:24:46,373 - #48 a
+INFO  00:24:46,373 - #22 [
+INFO  00:24:46,373 - #47 1
+INFO  00:24:46,373 - #23 ]
+INFO  00:24:46,373 - #24 =
+INFO  00:24:46,374 - #47 3
+INFO  00:24:46,374 - #40 ;
+INFO  00:24:46,374 - #50 goto
+INFO  00:24:46,374 - #48 labela
+INFO  00:24:46,374 - #40 ;
+INFO  00:24:46,375 - #48 x
+INFO  00:24:46,375 - #24 =
+INFO  00:24:46,375 - #47 3
+INFO  00:24:46,375 - #40 ;
+INFO  00:24:46,375 - #48 labela
+INFO  00:24:46,375 - #40 ;
+INFO  00:24:46,375 - #5 print
+INFO  00:24:46,375 - #20 (
+INFO  00:24:46,376 - #48 x
+INFO  00:24:46,376 - #21 )
+INFO  00:24:46,376 - #40 ;
+INFO  00:24:46,376 - #19 }
+INFO  00:24:46,376 - #19 }
+INFO  00:24:46,385 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       j
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        NoMoreVarDecl(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+          VarSingleSemi(
+           a
+            IsArray(
+            ) [IsArray]
+          ) [VarSingleSemi]
+        ) [NoMoreVarDecl]
+      ) [VarDeclarations]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStatement(
+                    ) [NoStatement]
+                    DesignStatement(
+                      DesignatorStatementSemi(
+                        DesignatorEqual(
+                          DesignatorIdent(
+                           x
+                          ) [DesignatorIdent]
+                          OneTermExpr(
+                            OneFactor(
+                              FactorNum(
+                               2
+                              ) [FactorNum]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [DesignatorEqual]
+                      ) [DesignatorStatementSemi]
+                    ) [DesignStatement]
+                  ) [Statements]
+                  DesignStatement(
+                    DesignatorStatementSemi(
+                      DesignatorEqual(
+                        DesignatorIdent(
+                         a
+                        ) [DesignatorIdent]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNew(
+                              TypeNoScope(
+                               int
+                              ) [TypeNoScope]
+                              OneTermExpr(
+                                OneFactor(
+                                  FactorNum(
+                                   3
+                                  ) [FactorNum]
+                                ) [OneFactor]
+                              ) [OneTermExpr]
+                            ) [FactorNew]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [DesignatorEqual]
+                    ) [DesignatorStatementSemi]
+                  ) [DesignStatement]
+                ) [Statements]
+                DesignStatement(
+                  DesignatorStatementSemi(
+                    DesignatorEqual(
+                      DesignatorArrayIdent(
+                        DesignatorArrayName(
+                          DesignatorIdent(
+                           a
+                          ) [DesignatorIdent]
+                        ) [DesignatorArrayName]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             1
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [DesignatorArrayIdent]
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           3
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [DesignatorEqual]
+                  ) [DesignatorStatementSemi]
+                ) [DesignStatement]
+              ) [Statements]
+              DesignStatement(
+                DesignatorStatementSemi(
+                  Goto(
+                    LabelName(
+                     labela
+                    ) [LabelName]
+                  ) [Goto]
+                ) [DesignatorStatementSemi]
+              ) [DesignStatement]
+            ) [Statements]
+            DesignStatement(
+              DesignatorStatementSemi(
+                DesignatorEqual(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [DesignatorEqual]
+              ) [DesignatorStatementSemi]
+            ) [DesignStatement]
+          ) [Statements]
+          DesignStatement(
+            DesignatorStatementSemi(
+              Label(
+                LabelName(
+                 labela
+                ) [LabelName]
+              ) [Label]
+            ) [DesignatorStatementSemi]
+          ) [DesignStatement]
+        ) [Statements]
+        PrintStatement(
+          OneTermExpr(
+            OneFactor(
+              FactorDesignator(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [FactorDesignator]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [PrintStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  00:24:46,386 - ============================================
+INFO  00:24:46,390 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 8
+INFO  00:24:46,390 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 10
+INFO  00:24:46,390 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 11
+INFO  00:24:46,390 - Pristup elementu niza a [Var a: Arr of int, 0, 1 ] na liniji 11
+INFO  00:24:46,390 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 18
+INFO  00:24:46,390 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 24
+INFO  00:24:46,390 - Poziv metode print() na liniji 24
+INFO  00:24:46,391 - ============================================
+INFO  00:24:46,391 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var j: int, 1, 0 
+   Meth main: notype, 0, 0 
+      Var a: Arr of int, 0, 1 
+
+
+
+INFO  00:24:46,398 - Parsiranje uspesno zavrseno!

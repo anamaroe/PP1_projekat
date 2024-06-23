@@ -1,0 +1,345 @@
+INFO  17:51:29,880 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\test302.mj
+INFO  17:51:29,908 - #2 program
+INFO  17:51:29,908 - #48 test302
+INFO  17:51:29,908 - #3 namespace
+INFO  17:51:29,909 - #48 Addition
+INFO  17:51:29,909 - #18 {
+INFO  17:51:29,909 - #18 {
+INFO  17:51:29,909 - #48 int
+INFO  17:51:29,910 - #48 sum
+INFO  17:51:29,910 - #20 (
+INFO  17:51:29,910 - #48 int
+INFO  17:51:29,910 - #48 z
+INFO  17:51:29,910 - #41 ,
+INFO  17:51:29,911 - #48 int
+INFO  17:51:29,911 - #48 d
+INFO  17:51:29,911 - #21 )
+INFO  17:51:29,911 - #18 {
+INFO  17:51:29,911 - #6 return
+INFO  17:51:29,911 - #48 z
+INFO  17:51:29,911 - #25 +
+INFO  17:51:29,912 - #48 d
+INFO  17:51:29,915 - #40 ;
+INFO  17:51:29,915 - #19 }
+INFO  17:51:29,915 - #48 int
+INFO  17:51:29,916 - #48 inkrement
+INFO  17:51:29,916 - #20 (
+INFO  17:51:29,916 - #48 int
+INFO  17:51:29,916 - #48 a
+INFO  17:51:29,916 - #41 ,
+INFO  17:51:29,916 - #48 int
+INFO  17:51:29,916 - #48 inc
+INFO  17:51:29,916 - #21 )
+INFO  17:51:29,916 - #48 int
+INFO  17:51:29,916 - #48 pom
+INFO  17:51:29,916 - #40 ;
+INFO  17:51:29,916 - #18 {
+INFO  17:51:29,916 - #8 if
+INFO  17:51:29,916 - #20 (
+INFO  17:51:29,916 - #48 inc
+INFO  17:51:29,917 - #39 ==
+INFO  17:51:29,917 - #47 1
+INFO  17:51:29,917 - #21 )
+INFO  17:51:29,917 - #48 pom
+INFO  17:51:29,917 - #24 =
+INFO  17:51:29,917 - #47 1
+INFO  17:51:29,917 - #40 ;
+INFO  17:51:29,917 - #9 else
+INFO  17:51:29,919 - #8 if
+INFO  17:51:29,919 - #20 (
+INFO  17:51:29,919 - #48 inc
+INFO  17:51:29,919 - #39 ==
+INFO  17:51:29,919 - #47 2
+INFO  17:51:29,919 - #21 )
+INFO  17:51:29,919 - #48 pom
+INFO  17:51:29,919 - #24 =
+INFO  17:51:29,919 - #48 a
+INFO  17:51:29,919 - #40 ;
+INFO  17:51:29,919 - #6 return
+INFO  17:51:29,919 - #48 sum
+INFO  17:51:29,919 - #20 (
+INFO  17:51:29,919 - #48 a
+INFO  17:51:29,920 - #41 ,
+INFO  17:51:29,920 - #48 pom
+INFO  17:51:29,920 - #21 )
+INFO  17:51:29,920 - #40 ;
+INFO  17:51:29,920 - #19 }
+INFO  17:51:29,920 - #19 }
+INFO  17:51:29,920 - #19 }
+INFO  17:51:29,921 - #18 {
+INFO  17:51:29,921 - #19 }
+INFO  17:51:29,930 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  HasNamespace1(
+    NoNamespace(
+    ) [NoNamespace]
+    HasNamespace(
+      NamespaceName(
+       Addition
+      ) [NamespaceName]
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        MoreMethodDecls(
+          MoreMethodDecls(
+            NoMoreMethodDeclarations(
+            ) [NoMoreMethodDeclarations]
+            MethodDeclaration(
+              MethodTypeName(
+                NonVoidRetType(
+                  TypeNoScope(
+                   int
+                  ) [TypeNoScope]
+                ) [NonVoidRetType]
+               sum
+              ) [MethodTypeName]
+              HasFormalParams(
+                MultipleFormalParameters(
+                  SingleFormalParam(
+                    TypeNoScope(
+                     int
+                    ) [TypeNoScope]
+                   z
+                    NotArray(
+                    ) [NotArray]
+                  ) [SingleFormalParam]
+                  OneFormalParameter(
+                    SingleFormalParam(
+                      TypeNoScope(
+                       int
+                      ) [TypeNoScope]
+                     d
+                      NotArray(
+                      ) [NotArray]
+                    ) [SingleFormalParam]
+                  ) [OneFormalParameter]
+                ) [MultipleFormalParameters]
+              ) [HasFormalParams]
+              NoMoreVarDecls1(
+              ) [NoMoreVarDecls1]
+              Statements(
+                NoStatement(
+                ) [NoStatement]
+                ReturnStatementExpr(
+                  ExpressionList(
+                    OneTermExpr(
+                      OneFactor(
+                        FactorDesignator(
+                          DesignatorIdent(
+                           z
+                          ) [DesignatorIdent]
+                        ) [FactorDesignator]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                    Add(
+                    ) [Add]
+                    OneFactor(
+                      FactorDesignator(
+                        DesignatorIdent(
+                         d
+                        ) [DesignatorIdent]
+                      ) [FactorDesignator]
+                    ) [OneFactor]
+                  ) [ExpressionList]
+                ) [ReturnStatementExpr]
+              ) [Statements]
+            ) [MethodDeclaration]
+          ) [MoreMethodDecls]
+          MethodDeclaration(
+            MethodTypeName(
+              NonVoidRetType(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+              ) [NonVoidRetType]
+             inkrement
+            ) [MethodTypeName]
+            HasFormalParams(
+              MultipleFormalParameters(
+                SingleFormalParam(
+                  TypeNoScope(
+                   int
+                  ) [TypeNoScope]
+                 a
+                  NotArray(
+                  ) [NotArray]
+                ) [SingleFormalParam]
+                OneFormalParameter(
+                  SingleFormalParam(
+                    TypeNoScope(
+                     int
+                    ) [TypeNoScope]
+                   inc
+                    NotArray(
+                    ) [NotArray]
+                  ) [SingleFormalParam]
+                ) [OneFormalParameter]
+              ) [MultipleFormalParameters]
+            ) [HasFormalParams]
+            VarDeclarations(
+              NoMoreVarDecls1(
+              ) [NoMoreVarDecls1]
+              NoMoreVarDecl(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+                VarSingleSemi(
+                 pom
+                  NotArray(
+                  ) [NotArray]
+                ) [VarSingleSemi]
+              ) [NoMoreVarDecl]
+            ) [VarDeclarations]
+            Statements(
+              Statements(
+                NoStatement(
+                ) [NoStatement]
+                IfElseStatement(
+                  IfConditional(
+                    TermCondition(
+                      FactCondition(
+                        CondFactRelop(
+                          OneTermExpr(
+                            OneFactor(
+                              FactorDesignator(
+                                DesignatorIdent(
+                                 inc
+                                ) [DesignatorIdent]
+                              ) [FactorDesignator]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                          Same(
+                          ) [Same]
+                          OneTermExpr(
+                            OneFactor(
+                              FactorNum(
+                               1
+                              ) [FactorNum]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [CondFactRelop]
+                      ) [FactCondition]
+                    ) [TermCondition]
+                  ) [IfConditional]
+                  DesignStatement(
+                    DesignatorStatementSemi(
+                      DesignatorEqual(
+                        DesignatorIdent(
+                         pom
+                        ) [DesignatorIdent]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             1
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [DesignatorEqual]
+                    ) [DesignatorStatementSemi]
+                  ) [DesignStatement]
+                  IfStatement(
+                    IfConditional(
+                      TermCondition(
+                        FactCondition(
+                          CondFactRelop(
+                            OneTermExpr(
+                              OneFactor(
+                                FactorDesignator(
+                                  DesignatorIdent(
+                                   inc
+                                  ) [DesignatorIdent]
+                                ) [FactorDesignator]
+                              ) [OneFactor]
+                            ) [OneTermExpr]
+                            Same(
+                            ) [Same]
+                            OneTermExpr(
+                              OneFactor(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [OneFactor]
+                            ) [OneTermExpr]
+                          ) [CondFactRelop]
+                        ) [FactCondition]
+                      ) [TermCondition]
+                    ) [IfConditional]
+                    DesignStatement(
+                      DesignatorStatementSemi(
+                        DesignatorEqual(
+                          DesignatorIdent(
+                           pom
+                          ) [DesignatorIdent]
+                          OneTermExpr(
+                            OneFactor(
+                              FactorDesignator(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                              ) [FactorDesignator]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [DesignatorEqual]
+                      ) [DesignatorStatementSemi]
+                    ) [DesignStatement]
+                  ) [IfStatement]
+                ) [IfElseStatement]
+              ) [Statements]
+              ReturnStatementExpr(
+                OneTermExpr(
+                  OneFactor(
+                    FactorFuncCall(
+                      MethodName(
+                        DesignatorIdent(
+                         sum
+                        ) [DesignatorIdent]
+                      ) [MethodName]
+                      ActParamList(
+                        MultipleActParams(
+                          SingleActParam(
+                            OneTermExpr(
+                              OneFactor(
+                                FactorDesignator(
+                                  DesignatorIdent(
+                                   a
+                                  ) [DesignatorIdent]
+                                ) [FactorDesignator]
+                              ) [OneFactor]
+                            ) [OneTermExpr]
+                          ) [SingleActParam]
+                          OneTermExpr(
+                            OneFactor(
+                              FactorDesignator(
+                                DesignatorIdent(
+                                 pom
+                                ) [DesignatorIdent]
+                              ) [FactorDesignator]
+                            ) [OneFactor]
+                          ) [OneTermExpr]
+                        ) [MultipleActParams]
+                      ) [ActParamList]
+                    ) [FactorFuncCall]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [ReturnStatementExpr]
+            ) [Statements]
+          ) [MethodDeclaration]
+        ) [MoreMethodDecls]
+      ) [Declarations]
+    ) [HasNamespace]
+  ) [HasNamespace1]
+  NoDeclarations(
+  ) [NoDeclarations]
+  NoMoreMethodDeclarations(
+  ) [NoMoreMethodDeclarations]
+) [Program]
+INFO  17:51:29,930 - ============================================
+INFO  17:51:29,933 - Obradjuje se funkcija int sum na liniji 8
+INFO  17:51:29,933 - Obradjuje se funkcija int inkrement na liniji 15
+INFO  17:51:29,933 - Deklarisana promenljiva pom na liniji 16
+ERROR 17:51:29,933 - Greska na liniji 22: ime sum nije deklarisano! 
+ERROR 17:51:29,933 - Ime noObj ne predstavlja funkciju na liniji 22
+ERROR 17:51:29,933 - Tip izraza u return naredbi nije kompatibilan sa tipom povratne vrednosti funkcije int na liniji 22
+INFO  17:51:29,933 - ============================================

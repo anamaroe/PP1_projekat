@@ -1,0 +1,93 @@
+INFO  23:17:43,939 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:17:43,966 - #2 program
+INFO  23:17:43,967 - #47 MojProgram
+INFO  23:17:43,967 - #3 namespace
+INFO  23:17:43,968 - #47 SPace
+INFO  23:17:43,968 - #17 {
+INFO  23:17:43,969 - #47 int
+INFO  23:17:43,969 - #47 rrp
+INFO  23:17:43,970 - #21 [
+INFO  23:17:43,970 - #22 ]
+INFO  23:17:43,970 - #40 ,
+INFO  23:17:43,971 - #47 f
+INFO  23:17:43,971 - #21 [
+INFO  23:17:43,971 - #22 ]
+INFO  23:17:43,972 - #39 ;
+INFO  23:17:43,972 - #15 const
+INFO  23:17:43,972 - #47 int
+INFO  23:17:43,972 - #47 r
+INFO  23:17:43,972 - #23 =
+INFO  23:17:43,973 - #46 32
+INFO  23:17:43,973 - #40 ,
+INFO  23:17:43,975 - #47 e
+INFO  23:17:43,975 - #23 =
+INFO  23:17:43,975 - #46 32
+INFO  23:17:43,975 - #39 ;
+INFO  23:17:43,975 - #17 {
+INFO  23:17:43,975 - #6 void
+INFO  23:17:43,976 - #47 fun
+INFO  23:17:43,977 - #19 (
+INFO  23:17:43,977 - #20 )
+INFO  23:17:43,977 - #39 ;
+INFO  23:17:43,977 - #18 }
+INFO  23:17:43,977 - #18 }
+INFO  23:17:43,977 - #17 {
+INFO  23:17:43,977 - #18 }
+INFO  23:17:43,980 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    HasNamespace2(
+      NamespaceName(
+       SPace
+      ) [NamespaceName]
+      NamespaceDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDecl(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+             rrp
+              IsArray(
+              ) [IsArray]
+              MoreVariables(
+               f
+                IsArray(
+                ) [IsArray]
+              ) [MoreVariables]
+            ) [VarDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            TypeNoScope(
+             int
+            ) [TypeNoScope]
+            ConstantAssign(
+             r
+              NumConst(
+               32
+              ) [NumConst]
+            ) [ConstantAssign]
+            MoreConstantsComma(
+              NoMoreConstants(
+              ) [NoMoreConstants]
+              ConstantAssign(
+               e
+                NumConst(
+                 32
+                ) [NumConst]
+              ) [ConstantAssign]
+            ) [MoreConstantsComma]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        MethodDecls(
+         fun
+        ) [MethodDecls]
+      ) [NamespaceDecls]
+    ) [HasNamespace2]
+  ) [HasNamespace1]
+) [Program]
+INFO  23:17:43,980 - ============================================

@@ -1,0 +1,231 @@
+INFO  23:18:26,757 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:18:26,793 - #2 program
+INFO  23:18:26,794 - #48 MojProgram
+INFO  23:18:26,794 - #48 int
+INFO  23:18:26,794 - #48 x
+INFO  23:18:26,795 - #40 ;
+INFO  23:18:26,795 - #48 int
+INFO  23:18:26,796 - #48 j
+INFO  23:18:26,796 - #40 ;
+INFO  23:18:26,796 - #18 {
+INFO  23:18:26,796 - #7 void
+INFO  23:18:26,796 - #48 main
+INFO  23:18:26,796 - #20 (
+INFO  23:18:26,798 - #21 )
+INFO  23:18:26,798 - #48 int
+INFO  23:18:26,798 - #48 a
+INFO  23:18:26,798 - #22 [
+INFO  23:18:26,798 - #23 ]
+INFO  23:18:26,799 - #40 ;
+INFO  23:18:26,799 - #18 {
+INFO  23:18:26,799 - #48 bodovi
+INFO  23:18:26,801 - #24 =
+INFO  23:18:26,801 - #47 0
+INFO  23:18:26,801 - #40 ;
+INFO  23:18:26,801 - #48 x
+INFO  23:18:26,801 - #24 =
+INFO  23:18:26,801 - #47 2
+INFO  23:18:26,801 - #40 ;
+INFO  23:18:26,802 - #48 a
+INFO  23:18:26,802 - #24 =
+INFO  23:18:26,802 - #12 new
+INFO  23:18:26,802 - #48 int
+INFO  23:18:26,802 - #22 [
+INFO  23:18:26,802 - #47 3
+INFO  23:18:26,802 - #23 ]
+INFO  23:18:26,802 - #40 ;
+INFO  23:18:26,802 - #48 a
+INFO  23:18:26,802 - #22 [
+INFO  23:18:26,803 - #47 1
+INFO  23:18:26,803 - #23 ]
+INFO  23:18:26,803 - #24 =
+INFO  23:18:26,803 - #47 3
+INFO  23:18:26,803 - #40 ;
+INFO  23:18:26,803 - #56 goto
+ERROR 23:18:26,803 - 
+Sintaksna greska na liniji 14
+INFO  23:18:26,803 - #48 labela
+INFO  23:18:26,804 - #40 ;
+INFO  23:18:26,804 - #48 labela
+INFO  23:18:26,805 - #44 :
+INFO  23:18:26,805 - #5 print
+ERROR 23:18:26,805 - 
+Sintaksna greska na liniji 23
+INFO  23:18:26,805 - #20 (
+INFO  23:18:26,805 - #48 a
+INFO  23:18:26,805 - #22 [
+INFO  23:18:26,805 - #47 1
+INFO  23:18:26,805 - #23 ]
+INFO  23:18:26,805 - #21 )
+INFO  23:18:26,805 - #40 ;
+INFO  23:18:26,806 - #19 }
+INFO  23:18:26,806 - #19 }
+INFO  23:18:26,811 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       j
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        NoMoreVarDecl(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+          VarSingleSemi(
+           a
+            IsArray(
+            ) [IsArray]
+          ) [VarSingleSemi]
+        ) [NoMoreVarDecl]
+      ) [VarDeclarations]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStatement(
+                ) [NoStatement]
+                DesignStatement(
+                  DesignatorStatementSemi(
+                    DesignatorEqual(
+                      DesignatorIdent(
+                       bodovi
+                      ) [DesignatorIdent]
+                      OneTermExpr(
+                        OneFactor(
+                          FactorNum(
+                           0
+                          ) [FactorNum]
+                        ) [OneFactor]
+                      ) [OneTermExpr]
+                    ) [DesignatorEqual]
+                  ) [DesignatorStatementSemi]
+                ) [DesignStatement]
+              ) [Statements]
+              DesignStatement(
+                DesignatorStatementSemi(
+                  DesignatorEqual(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNum(
+                         2
+                        ) [FactorNum]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [DesignatorEqual]
+                ) [DesignatorStatementSemi]
+              ) [DesignStatement]
+            ) [Statements]
+            DesignStatement(
+              DesignatorStatementSemi(
+                DesignatorEqual(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  OneTermExpr(
+                    OneFactor(
+                      FactorNew(
+                        TypeNoScope(
+                         int
+                        ) [TypeNoScope]
+                        OneTermExpr(
+                          OneFactor(
+                            FactorNum(
+                             3
+                            ) [FactorNum]
+                          ) [OneFactor]
+                        ) [OneTermExpr]
+                      ) [FactorNew]
+                    ) [OneFactor]
+                  ) [OneTermExpr]
+                ) [DesignatorEqual]
+              ) [DesignatorStatementSemi]
+            ) [DesignStatement]
+          ) [Statements]
+          DesignStatement(
+            ErrorInDesignatorStatement(
+            ) [ErrorInDesignatorStatement]
+          ) [DesignStatement]
+        ) [Statements]
+        DesignStatement(
+          ErrorInDesignatorStatement(
+          ) [ErrorInDesignatorStatement]
+        ) [DesignStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  23:18:26,813 - ============================================
+ERROR 23:18:26,816 - Greska na liniji 8: ime bodovi nije deklarisano! 
+INFO  23:18:26,816 - Koriscenje promenljive bodovi [Var noObj: none, -1, -1 ] na liniji 8
+ERROR 23:18:26,816 - Tip izraza koji se dodeljuje 1 nije kompatibilan sa promenljivom 1 na liniji 8
+INFO  23:18:26,816 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 9
+INFO  23:18:26,816 - Koriscenje promenljive a [Var a: Arr of int, 0, 1 ] na liniji 11
+INFO  23:18:26,816 - ============================================
+INFO  23:18:26,817 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var j: int, 1, 0 
+   Meth main: notype, 0, 0 
+      Var a: Arr of int, 0, 1 
+
+
+
+INFO  23:18:26,819 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,443 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+//import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+/* Terminals */
+
+terminal PROGRAM;
+terminal NAMESPACE;
+terminal READ_;
+terminal PRINT;
+terminal RETURN;
+terminal VOID;   
+terminal IF, ELSE;
+terminal BREAK_;
+terminal CLASS;
+terminal NEW_;
+terminal CONTINUE;
+terminal FOR;
+terminal STAT;
+terminal CONST;
+terminal EXTENDS;
+
+terminal LBRACE, RBRACE;
+terminal LPAREN, RPAREN;
+terminal LSQBRACE, RSQBRACE;
+
+terminal EQUAL;
+terminal PLUS;
+terminal MINUS;
+terminal MUL; 
+terminal DIV;
+terminal AND;
+terminal OR;
+terminal MOD;
+terminal INC;
+terminal DEC;
+terminal LESS;
+terminal GREATER;
+terminal GREQ;
+terminal LEQ;
+terminal NSAME;
+terminal SAME;
+terminal SEMI;
+terminal COMMA;
+terminal ARROW;
+terminal DOT;
+terminal COLON;
+
+terminal Boolean BOOL_VALUE;
+terminal Character CHAR_VALUE;
+
+terminal Integer NUMBER;
+terminal String IDENT;
+
+terminal MONKEY, GOTO, HASH;
+
+/* Nonterminals */
+
+nonterminal Namespace, HasNamespace, NamespaceName;
+nonterminal Declarations;
+nonterminal ConstAndVarDeclarations, ConstVarDeclaration;
+nonterminal VarDecls;
+nonterminal ManyMethodDeclarations;
+nonterminal Array;
+
+nonterminal StatementList;
+nonterminal DesignatorExpression;
+nonterminal Addop, Mulop, Relop; 
+
+nonterminal ActualParams, ActualParamsList;
+nonterminal DesignatorArrayList, HasDesignator;
+nonterminal Condition, CondTerm, CondFact, IfCondition;
+
+nonterminal DesignatorStatementsListHead, ForLoopDesignatorStatements, ForCondFact, DesignatorStatementsListTail;
+nonterminal StaticInitializer;
+nonterminal ConstDeclaration, MoreVariableDecls;
+nonterminal DesignatorStatementStat;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, MethodDeclaration, MethodTypeName, Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, ReturnType, Expression, Term, Factor, Constant;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj SingleVarDeclaration, VariableDeclarationList, MoreConstants;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Statement, FormalParams, FormalParamsList, SingleFormalParam, DesignatorStatement;
+
+nonterminal StartOfForLoop; /* to check if break and continue statements are inside of a for loop block */
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodName;
+
+nonterminal SetLevel, DesignatorArrayName, NextToLastOr, EndOfIfCondition, AfterIf, LabelName;
+
+precedence left ELSE;
+
+/* Grammar */
+
+Program ::= (Program) PROGRAM ProgName:p Namespace ConstAndVarDeclarations LBRACE ManyMethodDeclarations RBRACE;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+Namespace ::= (HasNamespace1) Namespace HasNamespace
+			|
+			(NoNamespace) /* epsilon */
+			;
+		
+HasNamespace ::= (HasNamespace) NAMESPACE NamespaceName:name LBRACE Declarations RBRACE;
+	
+NamespaceName ::= (NamespaceName) IDENT:name;
+
+Declarations ::= (Declarations) ConstAndVarDeclarations LBRACE ManyMethodDeclarations RBRACE;
+
+ManyMethodDeclarations::= (MoreMethodDecls) ManyMethodDeclarations MethodDeclaration
+			|
+			(NoMoreMethodDeclarations) /* epsilon */ 
+			;
+			
+MethodDeclaration ::= (MethodDeclaration) MethodTypeName FormalParams VarDecls SetLevel LBRACE StatementList RBRACE;
+
+SetLevel ::= (SetLevel) /* epsilon */;
+
+MethodTypeName ::= (MethodTypeName) ReturnType:retType IDENT:methodName;
+
+ReturnType ::= (VoidRetType) VOID
+			|
+			(NonVoidRetType) Type:t
+			;
+			
+FormalParams ::= (HasFormalParams) LPAREN FormalParamsList RPAREN
+			| 
+			(NoFormalParams) LPAREN RPAREN
+			|
+			(ErrorFormalParamsParen) error RPAREN
+			;
+			
+FormalParamsList ::= (MultipleFormalParameters) SingleFormalParam COMMA FormalParamsList
+			|
+			(OneFormalParameter) SingleFormalParam
+			;
+
+SingleFormalParam ::= (SingleFormalParam) Type:t IDENT:name Array;
+
+ConstAndVarDeclarations ::= (ConstDecls) ConstAndVarDeclarations ConstDeclaration
+			|
+			(VariableDeclaration2) ConstAndVarDeclarations VariableDeclarationList
+			|
+			(NoDeclarations) /* epsilon */
+			;
+
+ConstDeclaration ::= (ConstDecl) CONST Type:t Constant:c MoreConstants SEMI;
+			
+VarDecls ::= (VarDeclarations) VarDecls VariableDeclarationList
+			|
+			(NoMoreVarDecls1) /* epsilon */ 
+			;
+
+VariableDeclarationList ::= (MoreVarDecl) Type:varType MoreVariableDecls IDENT:VarName Array SEMI 
+			|
+			(NoMoreVarDecl) Type:varType SingleVarDeclaration:svd
+			|
+			(ErrorVarDeclSemi) error SEMI
+			;
+
+MoreVariableDecls ::= (VarCommaSeparated) MoreVariableDecls IDENT:VarName Array COMMA
+			|
+			(LastVarDecl) IDENT:VarName Array COMMA
+			|
+			(ErrorVarCommaSep) error COMMA 
+			;
+
+SingleVarDeclaration ::= (VarSingleSemi) IDENT:varName Array SEMI
+			|
+			(ErrorVarSemi) error SEMI 
+			;
+	
+MoreConstants ::= (MoreConstantsComma) MoreConstants COMMA Constant
+			|
+			(NoMoreConstants) /* epsilon */
+			;
+
+Constant ::= (NumConst) IDENT:name EQUAL NUMBER:num
+			|
+			(CharConst) IDENT:name EQUAL CHAR_VALUE:chrVal
+			|
+			(BoolConst) IDENT:name EQUAL BOOL_VALUE:boolVal
+			;	
+
+Array ::= (IsArray) LSQBRACE RSQBRACE
+			|
+			(NotArray) /* epsilon */
+			;			
+			
+StatementList ::= (Statements) StatementList Statement
+			|
+			(NoStatement) /* epsilon */			
+			;
+			
+Statement ::= (DesignStatement) DesignatorStatementStat
+			|
+			(ReadStatement) READ_ LPAREN Designator RPAREN SEMI
+			|
+			(PrintStatement) PRINT LPAREN Expression RPAREN SEMI
+			|
+			(PrintWidthStatement) PRINT LPAREN Expression COMMA NUMBER:w RPAREN SEMI
+			|
+			(BreakStatement) BREAK_ SEMI
+			|
+			(ContinueStatement) CONTINUE SEMI
+			|
+			(BracesStatement) LBRACE StatementList RBRACE
+			|
+			(ReturnStatement) RETURN SEMI
+			|
+			(ReturnStatementExpr) RETURN Expression:t SEMI
+			|
+			(IfStatement) IfCondition Statement AfterIf
+			|
+			(IfElseStatement) IfCondition Statement AfterIf ELSE Statement
+			|
+			(ForLoopStatement) FOR LPAREN DesignatorStatementsListHead SEMI ForCondFact SEMI DesignatorStatementsListTail RPAREN StartOfForLoop Statement
+			;
+			
+StartOfForLoop ::= (StartOfForLoop) /* epsilon */
+			;
+			
+ForCondFact ::= (HasForCondFact) CondFact
+			|
+			(NoForCondFact) /* epsilon */
+			;
+			
+DesignatorStatementsListHead ::= (DesignStatementListHead) ForLoopDesignatorStatements
+			|
+			(NoDesignStatementListHead) /* epsilon */
+			;
+		
+DesignatorStatementsListTail ::= (DesignStatementListTail) ForLoopDesignatorStatements
+			|
+			(NoDesignStatementListTail) /* epsilon */
+			;
+
+ForLoopDesignatorStatements ::= (MultipleDesignator) ForLoopDesignatorStatements COMMA DesignatorStatement
+			|
+			(SingleDesignator) DesignatorStatement
+			;
+
+IfCondition ::= (IfConditional) IF LPAREN Condition RPAREN EndOfIfCondition
+			|
+			(ErrorInIfCondition) error RPAREN
+			;
+			
+AfterIf ::= (AfterIf) /* epsilon */
+			;
+			
+EndOfIfCondition ::= (EndOfIfCondition) /* epsilon */
+			;
+
+Condition ::= (ManyTermConditions) Condition NextToLastOr OR CondTerm
+			|
+			(TermCondition) CondTerm
+			;
+			
+NextToLastOr ::= (NextToLastOr) /* epsilon */
+			;
+			
+CondTerm ::= (ManyFactConditions) CondTerm AND CondFact
+			|
+			(FactCondition) CondFact
+			;
+			
+CondFact ::= (CondFactRelop) Expression:e1 Relop Expression:e2
+			|
+			(CondFactExpression) Expression
+			;
+
+DesignatorStatementStat ::= (DesignatorStatementSemi) DesignatorStatement SEMI
+			|
+			(ErrorInDesignatorStatement) error SEMI
+			;
+			
+DesignatorStatement ::= (DesignatorEqual) Designator:dest EQUAL Expression:e
+			|
+			(DesignatorInc) Designator INC
+			|
+			(DesignatorDec) Designator DEC
+			|
+			(DesignatorWParams) MethodName:m LPAREN ActualParams RPAREN
+			|
+			(DesignatorArray) LSQBRACE DesignatorArrayList MUL Designator RSQBRACE EQUAL Designator
+			|
+			(ArrAssign) DesignatorArrayName:name LSQBRACE NUMBER:num1 COMMA NUMBER:num2 RSQBRACE
+			|
+			(Goto) GOTO LabelName
+			|
+			(Label) LabelName:name
+			;
+			
+LabelName ::= (LabelName) IDENT:label;
+			
+MethodName ::= (MethodName) Designator:d;
+			
+DesignatorArrayList ::= (DesignArrList) DesignatorArrayList HasDesignator COMMA
+			|
+			(EndOfAnDesignArrayList) /* epsilon */
+			;
+			
+HasDesignator ::= (HasDesign) Designator:d
+			|
+			(NoDesign) /* epsilon */
+			;
+			
+ActualParams ::= (ActParamList) ActualParamsList
+			|
+			(NoActParams) /* epsilon */
+			;
+			
+ActualParamsList ::= (MultipleActParams) ActualParamsList:actList COMMA Expression:exp
+			|
+			(SingleActParam) Expression:exp
+			;
+			
+Designator ::= (DesignatorIdent) IDENT:name
+			|
+			(DesignatorScopedIdent) IDENT:scope COLON COLON IDENT:name
+			|
+			(DesignatorArrayIdent) DesignatorArrayName:name LSQBRACE Expression:e RSQBRACE
+			;
+			
+DesignatorArrayName ::= (DesignatorArrayName) Designator:name;
+			
+Expression ::= (OneTermExpr) Term:t
+			|
+			(NegTermExpr) MINUS Term:t
+			|
+			(ExpressionList) Expression:te Addop Term:t
+			;			
+
+Term ::= (MoreFactors) Term:t Mulop Factor:f
+			|
+			(OneFactor) Factor:t
+			;
+
+Factor ::= (FactorNum) NUMBER:n
+			|
+			(FactorChar) CHAR_VALUE:c
+			|
+			(FactorExpr) LPAREN Expression:e RPAREN
+			|
+			(FactorBool) BOOL_VALUE:b
+			|
+			(FactorDesignator) Designator:d
+			|
+			(FactorFuncCall) MethodName:m LPAREN ActualParams:a RPAREN
+			|
+			(FactorNew) NEW_ Type:t LSQBRACE Expression:e RSQBRACE
+			|
+			(MonkeyStatement) DesignatorArrayName:name MONKEY NUMBER:num
+			|
+			(ArrAccess) HASH DesignatorArrayName:name LSQBRACE Expression:e RSQBRACE
+			;
+			
+Type ::= (TypeNoScope) IDENT:typeNameWithoutScope /* int, bool, char */
+			|
+			(TypeWScope) IDENT:typeNameScope COLON COLON IDENT:typeNameWithScope /* namespace var */
+			;
+			
+Addop ::= (Add) PLUS
+			|
+			(Sub) MINUS
+			;
+
+Mulop ::= (Mul) MUL
+			|
+			(Div) DIV
+			|
+			(Mod) MOD
+			;
+
+Relop ::= (Same) SAME
+			|
+			(NotSame) NSAME
+			|
+			(Greater) GREATER
+			|
+			(Less) LESS
+			|
+			(GreaterEq) GREQ
+			|
+			(LessEq) LEQ
+			;
+			
+StaticInitializer ::= (StaticInitializer) STAT LBRACE Statement RBRACE;

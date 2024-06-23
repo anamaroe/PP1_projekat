@@ -1,0 +1,172 @@
+INFO  20:50:36,096 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\for.mj
+INFO  20:50:36,129 - #2 program
+INFO  20:50:36,129 - #48 MojProgram
+INFO  20:50:36,129 - #18 {
+INFO  20:50:36,130 - #7 void
+INFO  20:50:36,131 - #48 main
+INFO  20:50:36,131 - #20 (
+INFO  20:50:36,131 - #21 )
+INFO  20:50:36,132 - #48 int
+INFO  20:50:36,132 - #48 i
+INFO  20:50:36,132 - #40 ;
+INFO  20:50:36,133 - #18 {
+INFO  20:50:36,133 - #14 for
+INFO  20:50:36,135 - #20 (
+INFO  20:50:36,135 - #48 i
+INFO  20:50:36,135 - #24 =
+INFO  20:50:36,135 - #47 0
+INFO  20:50:36,135 - #40 ;
+INFO  20:50:36,135 - #48 i
+INFO  20:50:36,135 - #34 <
+INFO  20:50:36,135 - #47 3
+INFO  20:50:36,136 - #40 ;
+INFO  20:50:36,136 - #48 i
+INFO  20:50:36,136 - #32 ++
+INFO  20:50:36,136 - #21 )
+INFO  20:50:36,136 - #18 {
+INFO  20:50:36,137 - #5 print
+INFO  20:50:36,137 - #20 (
+INFO  20:50:36,137 - #48 i
+INFO  20:50:36,137 - #21 )
+INFO  20:50:36,137 - #40 ;
+INFO  20:50:36,137 - #19 }
+INFO  20:50:36,137 - #19 }
+INFO  20:50:36,137 - #19 }
+INFO  20:50:36,143 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      VarDeclarations(
+        NoMoreVarDecls1(
+        ) [NoMoreVarDecls1]
+        NoMoreVarDecl(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+          VarSingleSemi(
+           i
+            NotArray(
+            ) [NotArray]
+          ) [VarSingleSemi]
+        ) [NoMoreVarDecl]
+      ) [VarDeclarations]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        NoStatement(
+        ) [NoStatement]
+        ForLoopStatement(
+          DesignStatementListHead(
+            SingleDesignator(
+              DesignatorEqual(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                OneTermExpr(
+                  OneFactor(
+                    FactorNum(
+                     0
+                    ) [FactorNum]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [DesignatorEqual]
+            ) [SingleDesignator]
+          ) [DesignStatementListHead]
+          HasForCondFact(
+            CondFactRelop(
+              OneTermExpr(
+                OneFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [OneFactor]
+              ) [OneTermExpr]
+              Less(
+              ) [Less]
+              OneTermExpr(
+                OneFactor(
+                  FactorNum(
+                   3
+                  ) [FactorNum]
+                ) [OneFactor]
+              ) [OneTermExpr]
+            ) [CondFactRelop]
+          ) [HasForCondFact]
+          DesignStatementListTail(
+            SingleDesignator(
+              DesignatorInc(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+              ) [DesignatorInc]
+            ) [SingleDesignator]
+          ) [DesignStatementListTail]
+          StartOfForLoop(
+          ) [StartOfForLoop]
+          BracesStatement(
+            Statements(
+              NoStatement(
+              ) [NoStatement]
+              PrintStatement(
+                OneTermExpr(
+                  OneFactor(
+                    FactorDesignator(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                    ) [FactorDesignator]
+                  ) [OneFactor]
+                ) [OneTermExpr]
+              ) [PrintStatement]
+            ) [Statements]
+          ) [BracesStatement]
+        ) [ForLoopStatement]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  20:50:36,145 - ============================================
+INFO  20:50:36,148 - Koriscenje promenljive i [Var i: int, 0, 1 ] na liniji 8
+INFO  20:50:36,148 - Koriscenje promenljive i [Var i: int, 0, 1 ] na liniji 8
+INFO  20:50:36,148 - Koriscenje promenljive i [Var i: int, 0, 1 ] na liniji 8
+INFO  20:50:36,148 - Koriscenje promenljive i [Var i: int, 0, 1 ] na liniji 9
+INFO  20:50:36,148 - Poziv metode print() na liniji 9
+INFO  20:50:36,148 - ============================================
+INFO  20:50:36,149 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Meth main: notype, 0, 0 
+      Var i: int, 0, 1 
+
+
+
+INFO  20:50:36,155 - Parsiranje uspesno zavrseno!

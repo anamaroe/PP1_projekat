@@ -1,0 +1,168 @@
+INFO  15:47:37,457 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  15:47:37,482 - #2 program
+INFO  15:47:37,482 - #48 test301
+INFO  15:47:37,482 - #3 namespace
+INFO  15:47:37,482 - #48 Konstante
+INFO  15:47:37,483 - #18 {
+INFO  15:47:37,483 - #16 const
+INFO  15:47:37,483 - #48 int
+INFO  15:47:37,483 - #48 nula
+INFO  15:47:37,483 - #24 =
+INFO  15:47:37,483 - #47 0
+INFO  15:47:37,483 - #40 ;
+INFO  15:47:37,484 - #16 const
+INFO  15:47:37,484 - #48 int
+INFO  15:47:37,484 - #48 jedan
+INFO  15:47:37,484 - #24 =
+INFO  15:47:37,484 - #47 1
+INFO  15:47:37,484 - #40 ;
+INFO  15:47:37,484 - #16 const
+INFO  15:47:37,484 - #48 int
+INFO  15:47:37,484 - #48 pet
+INFO  15:47:37,484 - #24 =
+INFO  15:47:37,484 - #47 5
+INFO  15:47:37,484 - #40 ;
+INFO  15:47:37,484 - #18 {
+INFO  15:47:37,484 - #19 }
+INFO  15:47:37,486 - #19 }
+INFO  15:47:37,486 - #3 namespace
+INFO  15:47:37,486 - #48 Nizovi
+INFO  15:47:37,487 - #18 {
+INFO  15:47:37,487 - #48 int
+INFO  15:47:37,487 - #48 niz
+INFO  15:47:37,487 - #22 [
+INFO  15:47:37,487 - #23 ]
+INFO  15:47:37,487 - #40 ;
+INFO  15:47:37,487 - #48 char
+INFO  15:47:37,487 - #48 nizch
+INFO  15:47:37,487 - #22 [
+INFO  15:47:37,487 - #23 ]
+INFO  15:47:37,487 - #40 ;
+INFO  15:47:37,487 - #18 {
+INFO  15:47:37,487 - #19 }
+INFO  15:47:37,487 - #19 }
+INFO  15:47:37,487 - #48 int
+INFO  15:47:37,487 - #48 a
+INFO  15:47:37,487 - #40 ;
+INFO  15:47:37,488 - #18 {
+INFO  15:47:37,488 - #19 }
+INFO  15:47:37,494 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  HasNamespace1(
+    HasNamespace1(
+      NoNamespace(
+      ) [NoNamespace]
+      HasNamespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        Declarations(
+          ConstDecls(
+            ConstDecls(
+              ConstDecls(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDecl(
+                  TypeNoScope(
+                   int
+                  ) [TypeNoScope]
+                  NumConst(
+                   nula
+                   0
+                  ) [NumConst]
+                  NoMoreConstants(
+                  ) [NoMoreConstants]
+                ) [ConstDecl]
+              ) [ConstDecls]
+              ConstDecl(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+                NoMoreConstants(
+                ) [NoMoreConstants]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+              NumConst(
+               pet
+               5
+              ) [NumConst]
+              NoMoreConstants(
+              ) [NoMoreConstants]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          NoMoreMethodDeclarations(
+          ) [NoMoreMethodDeclarations]
+        ) [Declarations]
+      ) [HasNamespace]
+    ) [HasNamespace1]
+    HasNamespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      Declarations(
+        VariableDeclaration2(
+          VariableDeclaration2(
+            NoDeclarations(
+            ) [NoDeclarations]
+            NoMoreVarDecl(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+              VarSingleSemi(
+               niz
+                IsArray(
+                ) [IsArray]
+              ) [VarSingleSemi]
+            ) [NoMoreVarDecl]
+          ) [VariableDeclaration2]
+          NoMoreVarDecl(
+            TypeNoScope(
+             char
+            ) [TypeNoScope]
+            VarSingleSemi(
+             nizch
+              IsArray(
+              ) [IsArray]
+            ) [VarSingleSemi]
+          ) [NoMoreVarDecl]
+        ) [VariableDeclaration2]
+        NoMoreMethodDeclarations(
+        ) [NoMoreMethodDeclarations]
+      ) [Declarations]
+    ) [HasNamespace]
+  ) [HasNamespace1]
+  VariableDeclaration2(
+    NoDeclarations(
+    ) [NoDeclarations]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       a
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  NoMoreMethodDeclarations(
+  ) [NoMoreMethodDeclarations]
+) [Program]
+INFO  15:47:37,495 - ============================================
+INFO  15:47:37,498 - Deklarisana je konstanta Konstante::nula = 0 na liniji 6
+INFO  15:47:37,498 - Deklarisana je konstanta Konstante::jedan = 1 na liniji 7
+INFO  15:47:37,498 - Deklarisana je konstanta Konstante::pet = 5 na liniji 8
+INFO  15:47:37,499 - Deklarisana promenljiva niz na liniji 14
+INFO  15:47:37,499 - Deklarisana promenljiva nizch na liniji 15
+INFO  15:47:37,499 - Deklarisana promenljiva a na liniji 20
+INFO  15:47:37,499 - ============================================

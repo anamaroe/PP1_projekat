@@ -1,0 +1,249 @@
+INFO  10:10:12,429 - Compiling source file: C:\Users\Vijesti\Desktop\pp1 projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  10:10:12,513 - #2 program
+INFO  10:10:12,514 - #48 MojProgram
+INFO  10:10:12,514 - #3 namespace
+INFO  10:10:12,517 - #48 Konstante
+INFO  10:10:12,517 - #18 {
+INFO  10:10:12,518 - #16 const
+INFO  10:10:12,519 - #48 int
+INFO  10:10:12,519 - #48 nula
+INFO  10:10:12,520 - #24 =
+INFO  10:10:12,520 - #47 0
+INFO  10:10:12,520 - #40 ;
+INFO  10:10:12,521 - #16 const
+INFO  10:10:12,522 - #48 int
+INFO  10:10:12,522 - #48 jedan
+INFO  10:10:12,522 - #24 =
+INFO  10:10:12,522 - #47 1
+INFO  10:10:12,522 - #40 ;
+INFO  10:10:12,522 - #16 const
+INFO  10:10:12,522 - #48 int
+INFO  10:10:12,523 - #48 pet
+INFO  10:10:12,523 - #24 =
+INFO  10:10:12,523 - #47 5
+INFO  10:10:12,523 - #40 ;
+INFO  10:10:12,523 - #18 {
+INFO  10:10:12,524 - #19 }
+INFO  10:10:12,526 - #19 }
+INFO  10:10:12,528 - #48 int
+INFO  10:10:12,530 - #48 x
+INFO  10:10:12,530 - #40 ;
+INFO  10:10:12,532 - #48 int
+INFO  10:10:12,532 - #48 y
+INFO  10:10:12,532 - #40 ;
+INFO  10:10:12,533 - #18 {
+INFO  10:10:12,533 - #48 int
+INFO  10:10:12,533 - #48 main
+INFO  10:10:12,534 - #20 (
+INFO  10:10:12,535 - #21 )
+INFO  10:10:12,535 - #18 {
+INFO  10:10:12,538 - #48 x
+INFO  10:10:12,539 - #24 =
+INFO  10:10:12,539 - #47 3
+INFO  10:10:12,539 - #40 ;
+INFO  10:10:12,540 - #5 print
+INFO  10:10:12,540 - #20 (
+INFO  10:10:12,540 - #47 7
+INFO  10:10:12,540 - #21 )
+INFO  10:10:12,541 - #40 ;
+INFO  10:10:12,541 - #5 print
+INFO  10:10:12,542 - #20 (
+INFO  10:10:12,542 - #48 x
+INFO  10:10:12,543 - #21 )
+INFO  10:10:12,543 - #40 ;
+INFO  10:10:12,543 - #6 return
+INFO  10:10:12,544 - #47 0
+INFO  10:10:12,544 - #40 ;
+INFO  10:10:12,544 - #19 }
+INFO  10:10:12,545 - #19 }
+INFO  10:10:12,566 - Program(
+  ProgName(
+   MojProgram
+  ) [ProgName]
+  HasNamespace1(
+    NoNamespace(
+    ) [NoNamespace]
+    HasNamespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        ConstDecls(
+          ConstDecls(
+            ConstDecls(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDecl(
+                TypeNoScope(
+                 int
+                ) [TypeNoScope]
+                NumConst(
+                 nula
+                 0
+                ) [NumConst]
+                NoMoreConstants(
+                ) [NoMoreConstants]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              TypeNoScope(
+               int
+              ) [TypeNoScope]
+              NumConst(
+               jedan
+               1
+              ) [NumConst]
+              NoMoreConstants(
+              ) [NoMoreConstants]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            TypeNoScope(
+             int
+            ) [TypeNoScope]
+            NumConst(
+             pet
+             5
+            ) [NumConst]
+            NoMoreConstants(
+            ) [NoMoreConstants]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        NoMoreMethodDeclarations(
+        ) [NoMoreMethodDeclarations]
+      ) [Declarations]
+    ) [HasNamespace]
+  ) [HasNamespace1]
+  VariableDeclaration2(
+    VariableDeclaration2(
+      NoDeclarations(
+      ) [NoDeclarations]
+      NoMoreVarDecl(
+        TypeNoScope(
+         int
+        ) [TypeNoScope]
+        VarSingleSemi(
+         x
+          NotArray(
+          ) [NotArray]
+        ) [VarSingleSemi]
+      ) [NoMoreVarDecl]
+    ) [VariableDeclaration2]
+    NoMoreVarDecl(
+      TypeNoScope(
+       int
+      ) [TypeNoScope]
+      VarSingleSemi(
+       y
+        NotArray(
+        ) [NotArray]
+      ) [VarSingleSemi]
+    ) [NoMoreVarDecl]
+  ) [VariableDeclaration2]
+  MoreMethodDecls(
+    NoMoreMethodDeclarations(
+    ) [NoMoreMethodDeclarations]
+    MethodDeclaration(
+      MethodTypeName(
+        NonVoidRetType(
+          TypeNoScope(
+           int
+          ) [TypeNoScope]
+        ) [NonVoidRetType]
+       main
+      ) [MethodTypeName]
+      NoFormalParams(
+      ) [NoFormalParams]
+      NoMoreVarDecls1(
+      ) [NoMoreVarDecls1]
+      SetLevel(
+      ) [SetLevel]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatement(
+              ) [NoStatement]
+              DesignStatement(
+                DesignatorStatementSemi(
+                  DesignatorEqual(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    OneTermExpr(
+                      OneFactor(
+                        FactorNum(
+                         3
+                        ) [FactorNum]
+                      ) [OneFactor]
+                    ) [OneTermExpr]
+                  ) [DesignatorEqual]
+                ) [DesignatorStatementSemi]
+              ) [DesignStatement]
+            ) [Statements]
+            PrintStatement(
+              OneTermExpr(
+                OneFactor(
+                  FactorNum(
+                   7
+                  ) [FactorNum]
+                ) [OneFactor]
+              ) [OneTermExpr]
+            ) [PrintStatement]
+          ) [Statements]
+          PrintStatement(
+            OneTermExpr(
+              OneFactor(
+                FactorDesignator(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                ) [FactorDesignator]
+              ) [OneFactor]
+            ) [OneTermExpr]
+          ) [PrintStatement]
+        ) [Statements]
+        ReturnStatementExpr(
+          OneTermExpr(
+            OneFactor(
+              FactorNum(
+               0
+              ) [FactorNum]
+            ) [OneFactor]
+          ) [OneTermExpr]
+        ) [ReturnStatementExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MoreMethodDecls]
+) [Program]
+INFO  10:10:12,578 - ============================================
+INFO  10:10:12,585 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 14
+INFO  10:10:12,585 - Poziv metode print() na liniji 16
+INFO  10:10:12,586 - Koriscenje promenljive x [Var x: int, 0, 0 ] na liniji 17
+INFO  10:10:12,586 - Poziv metode print() na liniji 17
+INFO  10:10:12,586 - ============================================
+INFO  10:10:12,586 - Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog MojProgram: notype, 0, 1 
+   Con Konstante::nula: int, 0, 0 
+   Con Konstante::jedan: int, 1, 0 
+   Con Konstante::pet: int, 5, 0 
+   Var x: int, 0, 0 
+   Var y: int, 1, 0 
+   Meth main: int, 0, 0 
+
+
+
+INFO  10:10:12,597 - Parsiranje uspesno zavrseno!
